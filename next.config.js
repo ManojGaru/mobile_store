@@ -1,4 +1,9 @@
 const nextConfig = {
+  output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   env: {
     //If you wan to run your local api folder then need to comment this below line
     API_URL: "https://bigdeal-api-git-main-pixelstrapthemes.vercel.app/",
