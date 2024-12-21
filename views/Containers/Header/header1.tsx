@@ -76,6 +76,7 @@ const Header: NextPage<header> = ({
                         src={`/images/${layoutLogo}/logo/logo.png`}
                         className="img-fluid  "
                         alt="logo"
+                        style={{ width: 300, height: 150 }}
                       />
                     </a>
                   </div>

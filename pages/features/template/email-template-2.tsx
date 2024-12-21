@@ -4,15 +4,30 @@ import { Table } from "reactstrap";
 
 const EmailTemplate2 = () => (
   <>
-    <Table borderless className="email-template-table" cellPadding="0" cellSpacing="0">
+    <Table
+      borderless
+      className="email-template-table"
+      cellPadding="0"
+      cellSpacing="0"
+    >
       <tbody>
         <tr>
           <td>
-            <Table align="center" bordered cellPadding="0" cellSpacing="0" width="100%">
+            <Table
+              align="center"
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+            >
               <tbody>
                 <tr className="header" style={{ backgroundColor: "t" }}>
                   <td align="left" valign="top">
-                    <Image src="/images/layout-2/logo/logo.png" alt="" className="main-logo" />
+                    <Image
+                      src="/images/layout-2/logo/logo.png"
+                      alt=""
+                      className="main-logo"
+                    />
                   </td>
                   <td className="menu" align="right">
                     <ul>
@@ -33,14 +48,43 @@ const EmailTemplate2 = () => (
                 </tr>
               </tbody>
             </Table>
-            <Table className="slider" align="center" bordered cellPadding="0" cellSpacing="0" width="100%">
+            <Table
+              className="slider"
+              align="center"
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+            >
               <tbody>
                 <tr>
-                  <th style={{ backgroundColor: "#11bfff", padding: "30px", width: "60%" }}>
-                    <Table bordered cellPadding="0" cellSpacing="0" width="100%">
+                  <th
+                    style={{
+                      backgroundColor: "#11bfff",
+                      padding: "30px",
+                      width: "60%",
+                    }}
+                  >
+                    <Table
+                      bordered
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                    >
                       <tbody>
                         <tr>
-                          <td style={{ color: "#ffffff", fontSize: "16px", lineHeight: "20px", textTransform: "uppercase", textAlign: "left", paddingBottom: "5px" }}>New Color</td>
+                          <td
+                            style={{
+                              color: "#ffffff",
+                              fontSize: "16px",
+                              lineHeight: "20px",
+                              textTransform: "uppercase",
+                              textAlign: "left",
+                              paddingBottom: "5px",
+                            }}
+                          >
+                            New Color
+                          </td>
                         </tr>
                         <tr>
                           <td
@@ -54,14 +98,24 @@ const EmailTemplate2 = () => (
                               fontWeight: "bold",
                               textAlign: "left",
                               paddingBottom: "20px",
-                            }}>
+                            }}
+                          >
                             new <br />
                             season
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p style={{ fontSize: "13px", color: "#4e54cb", textAlign: "left" }}>We are committed to your satisfaction with every order.</p>
+                            <p
+                              style={{
+                                fontSize: "13px",
+                                color: "#4e54cb",
+                                textAlign: "left",
+                              }}
+                            >
+                              We are committed to your satisfaction with every
+                              order.
+                            </p>
                           </td>
                         </tr>
                       </tbody>
@@ -80,9 +134,24 @@ const EmailTemplate2 = () => (
                               background: "#ffffff",
                               color: "#f54084",
                               fontWeight: "bold",
-                            }}>
-                            <a href="#" target="_blan" style={{ color: "#4e54cb", textDecoration: "none" }}>
-                              <span style={{ color: "#f1415e", textDecoration: "none" }}>shop now</span>
+                            }}
+                          >
+                            <a
+                              href="#"
+                              target="_blan"
+                              style={{
+                                color: "#4e54cb",
+                                textDecoration: "none",
+                              }}
+                            >
+                              <span
+                                style={{
+                                  color: "#f1415e",
+                                  textDecoration: "none",
+                                }}
+                              >
+                                shop now
+                              </span>
                             </a>
                           </td>
                         </tr>
@@ -90,37 +159,97 @@ const EmailTemplate2 = () => (
                     </Table>
                   </th>
                   <th align="center">
-                    <Image src="/images/email-temp/e-2-slider.jpg" alt="" style={{ marginBottom: "-5px" }} />
+                    <Image
+                      src="/images/email-temp/e-2-slider.jpg"
+                      alt=""
+                      style={{ marginBottom: "-5px" }}
+                    />
                   </th>
                 </tr>
               </tbody>
             </Table>
-            <Table align="center" bordered cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px" }}>
+            <Table
+              align="center"
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr>
                   <td align="center">
-                    <Table align="center" bordered className="display-width-inner" cellPadding="0" cellSpacing="0" width="100%" style={{ maxWidth: "450px" }}>
+                    <Table
+                      align="center"
+                      bordered
+                      className="display-width-inner"
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ maxWidth: "450px" }}
+                    >
                       <tbody>
                         <tr>
                           <td align="center" style={{ width: "40%" }}>
-                            <Image src="/images/email-temp/10.jpg" alt="" style={{ width: "225px", marginBottom: "-4px" }} />
+                            <Image
+                              src="/images/email-temp/10.jpg"
+                              alt=""
+                              style={{ width: "225px", marginBottom: "-4px" }}
+                            />
                           </td>
-                          <td align="center" style={{ backgroundColor: "#fafafa", width: "60%" }}>
+                          <td
+                            align="center"
+                            style={{ backgroundColor: "#fafafa", width: "60%" }}
+                          >
                             <h3 style={{ margin: "0" }}>Product One</h3>
-                            <div style={{ color: "#E01931", fontWeight: "normal", fontSize: "16px", lineHeight: "27px", letterSpacing: "1px", margin: "4px" }}>
+                            <div
+                              style={{
+                                color: "#E01931",
+                                fontWeight: "normal",
+                                fontSize: "16px",
+                                lineHeight: "27px",
+                                letterSpacing: "1px",
+                                margin: "4px",
+                              }}
+                            >
                               <span
-                                style={{ color: "#666666", fontWeight: "normal", fontSize: "15px", lineHeight: "25px", letterSpacing: "1px;" }}
+                                style={{
+                                  color: "#666666",
+                                  fontWeight: "normal",
+                                  fontSize: "15px",
+                                  lineHeight: "25px",
+                                  letterSpacing: "1px;",
+                                }}
                                 className="txt-price1"
                                 data-color="Price1"
                                 data-size="Price1"
                                 data-min="10"
-                                data-max="35">
+                                data-max="35"
+                              >
                                 $25.00
                               </span>
-                              <span className="txt-price2">&nbsp;&nbsp;&nbsp;</span>$20.90
+                              <span className="txt-price2">
+                                &nbsp;&nbsp;&nbsp;
+                              </span>
+                              $20.90
                             </div>
-                            <div style={{ padding: "15px 0px", textTransform: "uppercase", fontSize: "11px", letterSpacing: "1px" }}>
-                              <a href="#" style={{ color: "#ffffff", textDecoration: "none", background: "#000", padding: "8px 12px" }}>
+                            <div
+                              style={{
+                                padding: "15px 0px",
+                                textTransform: "uppercase",
+                                fontSize: "11px",
+                                letterSpacing: "1px",
+                              }}
+                            >
+                              <a
+                                href="#"
+                                style={{
+                                  color: "#ffffff",
+                                  textDecoration: "none",
+                                  background: "#000",
+                                  padding: "8px 12px",
+                                }}
+                              >
                                 SHOP NOW
                               </a>
                             </div>
@@ -128,58 +257,153 @@ const EmailTemplate2 = () => (
                         </tr>
                       </tbody>
                     </Table>
-                    <Table align="center" bordered className="display-width-inner" cellPadding="0" cellSpacing="0" width="100%" style={{ maxWidth: "450px" }}>
+                    <Table
+                      align="center"
+                      bordered
+                      className="display-width-inner"
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ maxWidth: "450px" }}
+                    >
                       <tbody>
                         <tr>
-                          <td align="center" style={{ backgroundColor: "#fafafa", width: "60%" }}>
+                          <td
+                            align="center"
+                            style={{ backgroundColor: "#fafafa", width: "60%" }}
+                          >
                             <h3 style={{ margin: "0" }}>Product One</h3>
-                            <div style={{ color: "#E01931", fontWeight: "normal", fontSize: "16px", lineHeight: "27px", letterSpacing: "1px", margin: "4px" }}>
+                            <div
+                              style={{
+                                color: "#E01931",
+                                fontWeight: "normal",
+                                fontSize: "16px",
+                                lineHeight: "27px",
+                                letterSpacing: "1px",
+                                margin: "4px",
+                              }}
+                            >
                               <span
-                                style={{ color: "#666666", fontSize: "15px", lineHeight: "25px", letterSpacing: "1px" }}
+                                style={{
+                                  color: "#666666",
+                                  fontSize: "15px",
+                                  lineHeight: "25px",
+                                  letterSpacing: "1px",
+                                }}
                                 className="txt-price1"
                                 data-color="Price1"
                                 data-size="Price1"
                                 data-min="10"
-                                data-ax="35">
+                                data-ax="35"
+                              >
                                 $25.00
                               </span>
-                              <span className="txt-price2">&nbsp;&nbsp;&nbsp;</span>$20.90
+                              <span className="txt-price2">
+                                &nbsp;&nbsp;&nbsp;
+                              </span>
+                              $20.90
                             </div>
-                            <div style={{ padding: "15px 0px", textTransform: "uppercase", fontSize: "11px", letterSpacing: "1px" }}>
-                              <a href="#" style={{ color: "#ffffff", textDecoration: "none", background: "#000", padding: "8px 12px" }}>
+                            <div
+                              style={{
+                                padding: "15px 0px",
+                                textTransform: "uppercase",
+                                fontSize: "11px",
+                                letterSpacing: "1px",
+                              }}
+                            >
+                              <a
+                                href="#"
+                                style={{
+                                  color: "#ffffff",
+                                  textDecoration: "none",
+                                  background: "#000",
+                                  padding: "8px 12px",
+                                }}
+                              >
                                 SHOP NOW
                               </a>
                             </div>
                           </td>
                           <td align="center" style={{ width: "40%" }}>
-                            <Image src="/images/email-temp/11.jpg" alt="" style={{ width: "225px", marginBottom: "-4px" }} />
+                            <Image
+                              src="/images/email-temp/11.jpg"
+                              alt=""
+                              style={{ width: "225px", marginBottom: "-4px" }}
+                            />
                           </td>
                         </tr>
                       </tbody>
                     </Table>
 
-                    <Table align="center" bordered className="display-width-inner" cellPadding="0" cellSpacing="0" width="100%" style={{ maxWidth: "450px" }}>
+                    <Table
+                      align="center"
+                      bordered
+                      className="display-width-inner"
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ maxWidth: "450px" }}
+                    >
                       <tbody>
                         <tr>
                           <td align="center" style={{ width: "40%" }}>
-                            <Image src="/images/email-temp/12.jpg" alt="" style={{ width: "225px", marginBottom: "-4px" }} />
+                            <Image
+                              src="/images/email-temp/12.jpg"
+                              alt=""
+                              style={{ width: "225px", marginBottom: "-4px" }}
+                            />
                           </td>
-                          <td align="center" style={{ backgroundColor: "#fafafa", width: "60%" }}>
+                          <td
+                            align="center"
+                            style={{ backgroundColor: "#fafafa", width: "60%" }}
+                          >
                             <h3 style={{ margin: "0" }}>Product One</h3>
-                            <div style={{ color: "#E01931", fontSize: "16px", lineHeight: "27px", letterSpacing: "1px", margin: "4px" }}>
+                            <div
+                              style={{
+                                color: "#E01931",
+                                fontSize: "16px",
+                                lineHeight: "27px",
+                                letterSpacing: "1px",
+                                margin: "4px",
+                              }}
+                            >
                               <span
-                                style={{ color: "#666666", fontSize: "15px", lineHeight: "25px", letterSpacing: "1px;" }}
+                                style={{
+                                  color: "#666666",
+                                  fontSize: "15px",
+                                  lineHeight: "25px",
+                                  letterSpacing: "1px;",
+                                }}
                                 className="txt-price1"
                                 data-color="Price1"
                                 data-size="Price1"
                                 data-min="10"
-                                data-max="35">
+                                data-max="35"
+                              >
                                 $25.00
                               </span>
-                              <span className="txt-price2">&nbsp;&nbsp;&nbsp;</span>$20.90
+                              <span className="txt-price2">
+                                &nbsp;&nbsp;&nbsp;
+                              </span>
+                              $20.90
                             </div>
-                            <div style={{ padding: "15px 0px", textTransform: "uppercase", fontSize: "11px", letterSpacing: "1px" }}>
-                              <a href="#" style={{ color: "#ffffff", textDecoration: "none", background: "#000", padding: "8px 12px" }}>
+                            <div
+                              style={{
+                                padding: "15px 0px",
+                                textTransform: "uppercase",
+                                fontSize: "11px",
+                                letterSpacing: "1px",
+                              }}
+                            >
+                              <a
+                                href="#"
+                                style={{
+                                  color: "#ffffff",
+                                  textDecoration: "none",
+                                  background: "#000",
+                                  padding: "8px 12px",
+                                }}
+                              >
                                 SHOP NOW
                               </a>
                             </div>
@@ -191,11 +415,25 @@ const EmailTemplate2 = () => (
                 </tr>
               </tbody>
             </Table>
-            <Table align="center" bordered cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px" }}>
+            <Table
+              align="center"
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px" }}
+            >
               <thead>
                 <tr>
                   <td>
-                    <h4 className="title" style={{ width: "100%", textAlign: "center", marginTop: "50px" }}>
+                    <h4
+                      className="title"
+                      style={{
+                        width: "100%",
+                        textAlign: "center",
+                        marginTop: "50px",
+                      }}
+                    >
                       trending product
                     </h4>
                     <p style={{ margin: "0" }}>GET EVEN 25% OFF DISCOUNT</p>
@@ -207,7 +445,11 @@ const EmailTemplate2 = () => (
                   <td>
                     <div className="product-box hover">
                       <div className="product border-theme br-0">
-                        <Image src="/images/email-temp/13.jpg" alt="product" style={{ width: "100%" }} />
+                        <Image
+                          src="/images/email-temp/13.jpg"
+                          alt="product"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                       <div className="product-info">
                         <a href="#">
@@ -220,7 +462,11 @@ const EmailTemplate2 = () => (
                   <td>
                     <div className="product-box hover">
                       <div className="product border-theme br-0">
-                        <Image src="/images/email-temp/14.jpg" alt="product" style={{ width: "100%" }} />
+                        <Image
+                          src="/images/email-temp/14.jpg"
+                          alt="product"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                       <div className="product-info">
                         <div className="rating">
@@ -240,27 +486,55 @@ const EmailTemplate2 = () => (
                 </tr>
               </tbody>
             </Table>
-            <Table bordered cellPadding="0" cellSpacing="0" align="center" style={{ marginTop: "30px" }}>
+            <Table
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              align="center"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr className="add-with-banner">
                   <td>
                     <a href="#">
-                      <Image src="/images/email-temp/banner.jpg" alt="product" style={{ width: "100%" }} />
+                      <Image
+                        src="/images/email-temp/banner.jpg"
+                        alt="product"
+                        style={{ width: "100%" }}
+                      />
                     </a>
                   </td>
                 </tr>
               </tbody>
             </Table>
-            <Table bordered cellPadding="0" cellSpacing="0" align="center" style={{ marginTop: "30px" }}>
+            <Table
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              align="center"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr>
                   <td>
-                    <Image src="/images/email-temp/banner-2.jpg" alt="" style={{ width: "100%" }} />
+                    <Image
+                      src="/images/email-temp/banner-2.jpg"
+                      alt=""
+                      style={{ width: "100%" }}
+                    />
                   </td>
                 </tr>
               </tbody>
             </Table>
-            <Table className="main-bg-light text-center" align="center" bordered cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px" }}>
+            <Table
+              className="main-bg-light text-center"
+              align="center"
+              bordered
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr>
                   <td style={{ padding: "30px" }}>
@@ -269,44 +543,80 @@ const EmailTemplate2 = () => (
                         Follow us
                       </h4>
                     </div>
-                    <Table bordered cellPadding="0" cellSpacing="0" className="footer-social-icon text-center" align="center" style={{ marginTop: "20px" }}>
+                    <Table
+                      bordered
+                      cellPadding="0"
+                      cellSpacing="0"
+                      className="footer-social-icon text-center"
+                      align="center"
+                      style={{ marginTop: "20px" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/facebook.png" alt="" />
+                              <Image
+                                src="/images/email-temp/facebook.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/youtube.png" alt="" />
+                              <Image
+                                src="/images/email-temp/youtube.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/twitter.png" alt="" />
+                              <Image
+                                src="/images/email-temp/twitter.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/gplus.png" alt="" />
+                              <Image
+                                src="/images/email-temp/gplus.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/linkedin.png" alt="" />
+                              <Image
+                                src="/images/email-temp/linkedin.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/pinterest.png" alt="" />
+                              <Image
+                                src="/images/email-temp/pinterest.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                         </tr>
                       </tbody>
                     </Table>
-                    <div style={{ borderTop: "1px solid #ddd", margin: "20px auto 0" }}></div>
-                    <Table bordered cellPadding="0" cellSpacing="0" width="100%" style={{ margin: "20px auto 0" }}>
+                    <div
+                      style={{
+                        borderTop: "1px solid #ddd",
+                        margin: "20px auto 0",
+                      }}
+                    ></div>
+                    <Table
+                      bordered
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ margin: "20px auto 0" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
@@ -317,12 +627,22 @@ const EmailTemplate2 = () => (
                         </tr>
                         <tr>
                           <td>
-                            <p style={{ fontSize: "13px", margin: "0" }}>2022 - 23 Copy Right by Themeforest powerd by Pixel Strap</p>
+                            <p style={{ fontSize: "13px", margin: "0" }}>
+                              2022 - 23 Copy Right by Mobiplex powerd by Pixel
+                              Strap
+                            </p>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" style={{ fontSize: "13px", margin: "0", textDecoration: "underline" }}>
+                            <a
+                              href="#"
+                              style={{
+                                fontSize: "13px",
+                                margin: "0",
+                                textDecoration: "underline",
+                              }}
+                            >
                               Unsubscribe
                             </a>
                           </td>

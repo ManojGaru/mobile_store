@@ -16,37 +16,63 @@ const FooterSection: React.FC<FooterSectionProps> = ({ layoutLogo }) => {
                 <Col lg="4" md="12">
                   <div className="footer-left">
                     <div className="footer-logo">
-                      <Media src={`/images/${layoutLogo}/logo/logo.png`} className="img-fluid  " alt="logo" />
+                      <Media
+                        src={`/images/${layoutLogo}/logo/logo.png`}
+                        className="img-fluid  "
+                        alt="logo"
+                      />
                     </div>
                     <div className="footer-detail">
                       <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-                        McClintock,
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.
+                        Richard McClintock,
                       </p>
                       <ul className="paymant-bottom">
                         <li>
                           <a href="#">
-                            <Media src="/images/layout-1/pay/1.png" className="img-fluid" alt="pay" />
+                            <Media
+                              src="/images/layout-1/pay/1.png"
+                              className="img-fluid"
+                              alt="pay"
+                            />
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <Media src="/images/layout-1/pay/2.png" className="img-fluid" alt="pay" />
+                            <Media
+                              src="/images/layout-1/pay/2.png"
+                              className="img-fluid"
+                              alt="pay"
+                            />
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <Media src="/images/layout-1/pay/3.png" className="img-fluid" alt="pay" />
+                            <Media
+                              src="/images/layout-1/pay/3.png"
+                              className="img-fluid"
+                              alt="pay"
+                            />
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <Media src="/images/layout-1/pay/4.png" className="img-fluid" alt="pay" />
+                            <Media
+                              src="/images/layout-1/pay/4.png"
+                              className="img-fluid"
+                              alt="pay"
+                            />
                           </a>
                         </li>
                         <li>
                           <a href="#">
-                            <Media src="/images/layout-1/pay/5.png" className="img-fluid" alt="pay" />
+                            <Media
+                              src="/images/layout-1/pay/5.png"
+                              className="img-fluid"
+                              alt="pay"
+                            />
                           </a>
                         </li>
                       </ul>
@@ -75,7 +101,11 @@ const FooterSection: React.FC<FooterSectionProps> = ({ layoutLogo }) => {
                                         <i className="fa fa-envelope-o"></i>
                                       </span>
                                     </div>
-                                    <Input type="text" className="form-control" placeholder="your email" />
+                                    <Input
+                                      type="text"
+                                      className="form-control"
+                                      placeholder="your email"
+                                    />
                                     <div className="input-group-prepend">
                                       <span className="input-group-text telly">
                                         <i className="fa fa-telegram"></i>
@@ -153,20 +183,23 @@ const FooterSection: React.FC<FooterSectionProps> = ({ layoutLogo }) => {
                                     <li>
                                       <i className="fa fa-map-marker"></i>
                                       <span>
-                                        big deal store demo store <br /> <span> india-3654123</span>
+                                        mobiplex store <br />{" "}
+                                        <span> india-3654123</span>
                                       </span>
                                     </li>
                                     <li>
                                       <i className="fa fa-phone"></i>
-                                      <span>call us: 123-456-7898</span>
+                                      <span>call us: +91 86976 11611</span>
                                     </li>
                                     <li>
                                       <i className="fa fa-envelope-o"></i>
-                                      <span>email us: support@bigdeal.com</span>
+                                      <span>
+                                        email us: support@mobiplex.com
+                                      </span>
                                     </li>
                                     <li>
                                       <i className="fa fa-fax"></i>
-                                      <span>fax 123456</span>
+                                      <span>fax +91 86976 11611</span>
                                     </li>
                                   </ul>
                                 </div>
@@ -189,10 +222,18 @@ const FooterSection: React.FC<FooterSectionProps> = ({ layoutLogo }) => {
             <div className="app-link-bloc-contain app-link-bloc-contain-1">
               <div className="app-item-group">
                 <div className="app-item">
-                  <Media src="/images/layout-1/app/1.png" className="img-fluid" alt="app-banner" />
+                  <Media
+                    src="/images/layout-1/app/1.png"
+                    className="img-fluid"
+                    alt="app-banner"
+                  />
                 </div>
                 <div className="app-item">
-                  <Media src="/images/layout-1/app/2.png" className="img-fluid" alt="app-banner" />
+                  <Media
+                    src="/images/layout-1/app/2.png"
+                    className="img-fluid"
+                    alt="app-banner"
+                  />
                 </div>
               </div>
               <div className="app-item-group ">
@@ -237,7 +278,7 @@ const FooterSection: React.FC<FooterSectionProps> = ({ layoutLogo }) => {
             <Col xs="12">
               <div className="sub-footer-contain">
                 <p>
-                  <span>2022 - 23 </span>copy right by themeforest powered by pixelstrap
+                  <span>2022 - 23 </span>copy right by mobiplex
                 </p>
               </div>
             </Col>

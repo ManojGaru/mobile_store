@@ -16,14 +16,19 @@ const Layout1: NextPage<Props> = ({ children }) => {
   const pathMatch = ["Layouts", "/"];
   useEffect(() => {
     document.documentElement.classList.remove(localStorage.getItem("color"));
-    localStorage.setItem("color", "color-1");
+    localStorage.setItem("color", "color-2");
     document.documentElement.classList.add(localStorage.getItem("color"));
   }, []);
   return (
     <Loader>
       <div>
         <CartProvider>
-          <HeaderContainer category={false} cartPopupPosition="top" display="d-none" layoutLogo="layout-2" />
+          <HeaderContainer
+            category={false}
+            cartPopupPosition="top"
+            display="d-none"
+            layoutLogo="layout-2"
+          />
           {pathMatch.includes(path) && (
             <section className="brand-panel">
               <div className="brand-panel-box">

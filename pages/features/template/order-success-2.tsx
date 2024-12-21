@@ -4,15 +4,30 @@ import { Table, Media } from "reactstrap";
 
 const OrderSuccess2: NextPage = () => (
   <>
-    <Table borderless className="email-template-table" cellPadding="0" cellSpacing="0">
+    <Table
+      borderless
+      className="email-template-table"
+      cellPadding="0"
+      cellSpacing="0"
+    >
       <tbody>
         <tr>
           <td>
-            <Table align="left" cellPadding="0" cellSpacing="0" style={{ textAlign: "left" }} width="100%">
+            <Table
+              align="left"
+              cellPadding="0"
+              cellSpacing="0"
+              style={{ textAlign: "left" }}
+              width="100%"
+            >
               <tbody>
                 <tr>
                   <td style={{ textAlign: "center" }}>
-                    <Media src="/images/email-temp/delivery-2.png" alt="" style={{ marginBottom: "30px" }} />
+                    <Media
+                      src="/images/email-temp/delivery-2.png"
+                      alt=""
+                      style={{ marginBottom: "30px" }}
+                    />
                   </td>
                 </tr>
                 <tr>
@@ -20,30 +35,79 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>
                       <b>Hi John Doe,</b>
                     </p>
-                    <p style={{ fontSize: "14px" }}>Order Is Successfully Processsed And Your Order Is On The Way,</p>
-                    <p style={{ fontSize: "14px" }}>Transaction ID : 267676GHERT105467,</p>
+                    <p style={{ fontSize: "14px" }}>
+                      Order Is Successfully Processsed And Your Order Is On The
+                      Way,
+                    </p>
+                    <p style={{ fontSize: "14px" }}>
+                      Transaction ID : 267676GHERT105467,
+                    </p>
                   </td>
                 </tr>
               </tbody>
             </Table>
 
-            <Table cellPadding="0" cellSpacing="0" align="left" style={{ width: "100%", marginTop: "10px", marginBottom: "10px" }}>
+            <Table
+              cellPadding="0"
+              cellSpacing="0"
+              align="left"
+              style={{ width: "100%", marginTop: "10px", marginBottom: "10px" }}
+            >
               <tbody>
                 <tr>
-                  <td style={{ backgroundColor: "#fafafa", border: "1px solid #ddd", padding: "15px", letterSpacing: "0.3px", width: "50%" }}>
+                  <td
+                    style={{
+                      backgroundColor: "#fafafa",
+                      border: "1px solid #ddd",
+                      padding: "15px",
+                      letterSpacing: "0.3px",
+                      width: "50%",
+                    }}
+                  >
                     <h5>Your Shipping Address</h5>
-                    <p style={{ textAlign: "left", fontWeight: "normal", fontSize: "14px", color: "#000000", lineHeight: "21px", marginTop: "0" }}>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontWeight: "normal",
+                        fontSize: "14px",
+                        color: "#000000",
+                        lineHeight: "21px",
+                        marginTop: "0",
+                      }}
+                    >
                       268 Cambridge Lane New Albany,
                       <br /> IN 47150268 Cambridge Lane <br />
                       New Albany, IN 47150
                     </p>
                   </td>
                   <td>
-                    <Media src="/images/email-temp/space.jpg" alt=" " height="25" width="30" />
+                    <Media
+                      src="/images/email-temp/space.jpg"
+                      alt=" "
+                      height="25"
+                      width="30"
+                    />
                   </td>
-                  <td style={{ backgroundColor: "#fafafa", border: "1px solid #ddd", padding: "15px", letterSpacing: "0.3px", width: "50%" }}>
+                  <td
+                    style={{
+                      backgroundColor: "#fafafa",
+                      border: "1px solid #ddd",
+                      padding: "15px",
+                      letterSpacing: "0.3px",
+                      width: "50%",
+                    }}
+                  >
                     <h5>Your Billing Address:</h5>
-                    <p style={{ textAlign: "left", fontWeight: "normal", fontSize: "14px", color: "#000000", lineHeight: "21px", marginTop: "0" }}>
+                    <p
+                      style={{
+                        textAlign: "left",
+                        fontWeight: "normal",
+                        fontSize: "14px",
+                        color: "#000000",
+                        lineHeight: "21px",
+                        marginTop: "0",
+                      }}
+                    >
                       268 Cambridge Lane New Albany,
                       <br /> IN 47150268 Cambridge Lane <br />
                       New Albany, IN 47150
@@ -52,7 +116,14 @@ const OrderSuccess2: NextPage = () => (
                 </tr>
               </tbody>
             </Table>
-            <Table bordered className="order-detail" cellPadding="0" cellSpacing="0" align="left" style={{ width: "100%", marginBottom: "50px" }}>
+            <Table
+              bordered
+              className="order-detail"
+              cellPadding="0"
+              cellSpacing="0"
+              align="left"
+              style={{ width: "100%", marginBottom: "50px" }}
+            >
               <thead>
                 <tr className="email-tr">
                   <th>PRODUCT</th>
@@ -64,84 +135,184 @@ const OrderSuccess2: NextPage = () => (
               <tbody>
                 <tr className="email-tr">
                   <td>
-                    <Media src="/images/email-temp/pro-1.jpg" alt="" width="80" />
+                    <Media
+                      src="/images/email-temp/pro-1.jpg"
+                      alt=""
+                      width="80"
+                    />
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ marginTop: "15px" }}>Three seater Wood Style sofa for Leavingroom </h5>
+                    <h5 style={{ marginTop: "15px" }}>
+                      Three seater Wood Style sofa for Leavingroom{" "}
+                    </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px", marginBottom: "0px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                        marginBottom: "0px",
+                      }}
+                    >
                       Size : <span> L</span>{" "}
                     </h5>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "10px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "10px",
+                      }}
+                    >
                       QTY : <span>1</span>
                     </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                      }}
+                    >
                       <b>$500</b>
                     </h5>
                   </td>
                 </tr>
                 <tr className="email-tr">
                   <td>
-                    <Media src="/images/email-temp/pro-2.jpg" alt="" width="80" />
+                    <Media
+                      src="/images/email-temp/pro-2.jpg"
+                      alt=""
+                      width="80"
+                    />
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ marginTop: "15px" }}>Three seater Wood Style sofa for Leavingroom </h5>
+                    <h5 style={{ marginTop: "15px" }}>
+                      Three seater Wood Style sofa for Leavingroom{" "}
+                    </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px", marginBottom: "0px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                        marginBottom: "0px",
+                      }}
+                    >
                       Size : <span> L</span>{" "}
                     </h5>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "10px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "10px",
+                      }}
+                    >
                       QTY : <span>1</span>
                     </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                      }}
+                    >
                       <b>$500</b>
                     </h5>
                   </td>
                 </tr>
                 <tr className="email-tr">
                   <td>
-                    <Media src="/images/email-temp/pro-3.jpg" alt="" width="80" />
+                    <Media
+                      src="/images/email-temp/pro-3.jpg"
+                      alt=""
+                      width="80"
+                    />
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ marginTop: "15px" }}>Three seater Wood Style sofa for Leavingroom </h5>
+                    <h5 style={{ marginTop: "15px" }}>
+                      Three seater Wood Style sofa for Leavingroom{" "}
+                    </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px", marginBottom: "0px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                        marginBottom: "0px",
+                      }}
+                    >
                       Size : <span> L</span>{" "}
                     </h5>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "10px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "10px",
+                      }}
+                    >
                       QTY : <span>1</span>
                     </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                      }}
+                    >
                       <b>$500</b>
                     </h5>
                   </td>
                 </tr>
                 <tr className="email-tr">
                   <td>
-                    <Media src="/images/email-temp/pro-2.jpg" alt="" width="80" />
+                    <Media
+                      src="/images/email-temp/pro-2.jpg"
+                      alt=""
+                      width="80"
+                    />
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ marginTop: "15px" }}>Three seater Wood Style sofa for Leavingroom </h5>
+                    <h5 style={{ marginTop: "15px" }}>
+                      Three seater Wood Style sofa for Leavingroom{" "}
+                    </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px", marginBottom: "0px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                        marginBottom: "0px",
+                      }}
+                    >
                       Size : <span> L</span>{" "}
                     </h5>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "10px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "10px",
+                      }}
+                    >
                       QTY : <span>1</span>
                     </h5>
                   </td>
                   <td valign="top" style={{ paddingLeft: "15px" }}>
-                    <h5 style={{ fontSize: "14px", color: "#444", marginTop: "15px" }}>
+                    <h5
+                      style={{
+                        fontSize: "14px",
+                        color: "#444",
+                        marginTop: "15px",
+                      }}
+                    >
                       <b>$500</b>
                     </h5>
                   </td>
@@ -196,53 +367,96 @@ const OrderSuccess2: NextPage = () => (
                 </tr>
               </tbody>
             </Table>
-            <Table className="main-bg-light text-center top-0" align="center" cellPadding="0" cellSpacing="0" width="100%">
+            <Table
+              className="main-bg-light text-center top-0"
+              align="center"
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+            >
               <tbody>
                 <tr>
                   <td style={{ padding: "30px" }}>
                     <div>
-                      <h4 className="title" style={{ margin: "0", textAlign: "center" }}>
+                      <h4
+                        className="title"
+                        style={{ margin: "0", textAlign: "center" }}
+                      >
                         FOLLOW US
                       </h4>
                     </div>
-                    <Table cellPadding="0" cellSpacing="0" className="footer-social-icon text-center" align="center" style={{ marginTop: "20px" }}>
+                    <Table
+                      cellPadding="0"
+                      cellSpacing="0"
+                      className="footer-social-icon text-center"
+                      align="center"
+                      style={{ marginTop: "20px" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/facebook.png" alt="" />
+                              <Media
+                                src="/images/email-temp/facebook.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/youtube.png" alt="" />
+                              <Media
+                                src="/images/email-temp/youtube.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/twitter.png" alt="" />
+                              <Media
+                                src="/images/email-temp/twitter.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/gplus.png" alt="" />
+                              <Media
+                                src="/images/email-temp/gplus.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/linkedin.png" alt="" />
+                              <Media
+                                src="/images/email-temp/linkedin.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Media src="/images/email-temp/pinterest.png" alt="" />
+                              <Media
+                                src="/images/email-temp/pinterest.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                         </tr>
                       </tbody>
                     </Table>
-                    <div style={{ borderTop: "1px solid #ddd", margin: "20px auto 0" }}></div>
-                    <Table cellPadding="0" cellSpacing="0" width="100%" style={{ margin: "20px auto 0" }}>
+                    <div
+                      style={{
+                        borderTop: "1px solid #ddd",
+                        margin: "20px auto 0",
+                      }}
+                    ></div>
+                    <Table
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ margin: "20px auto 0" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
@@ -253,12 +467,22 @@ const OrderSuccess2: NextPage = () => (
                         </tr>
                         <tr>
                           <td>
-                            <p style={{ fontSize: "13px", margin: "0" }}>2023 - 19 Copy Right by Themeforest powerd by Pixel Strap</p>
+                            <p style={{ fontSize: "13px", margin: "0" }}>
+                              2023 - 19 Copy Right by Mobiplex powerd by Pixel
+                              Strap
+                            </p>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" style={{ fontSize: "13px", margin: "0", textDecoration: "underline" }}>
+                            <a
+                              href="#"
+                              style={{
+                                fontSize: "13px",
+                                margin: "0",
+                                textDecoration: "underline",
+                              }}
+                            >
                               Unsubscribe
                             </a>
                           </td>

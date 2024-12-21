@@ -48,10 +48,16 @@ const Sidebar: NextPage = () => {
   const [radioChecked, setRadioChecked] = useState(null);
   const router = useRouter();
 
+  console.log(selectedColor, "selected color");
+
   useEffect(() => {
-    router.push(`${window.location.pathname}?brand=${selectedBrands}&color=${selectedColor}&category=${selectedCategory}&pricemin=${selectedPrice.min}&pricemax=${selectedPrice.max}`, undefined, {
-      shallow: true,
-    });
+    router.push(
+      `${window.location.pathname}?brand=${selectedBrands}&color=${selectedColor}&category=${selectedCategory}&pricemin=${selectedPrice.min}&pricemax=${selectedPrice.max}`,
+      undefined,
+      {
+        shallow: true,
+      }
+    );
   }, [selectedCategory, selectedPrice, selectedBrands, selectedColor]);
 
   useEffect(() => {
@@ -75,7 +81,10 @@ const Sidebar: NextPage = () => {
     <div className="collection-filter-block creative-card creative-inner category-side">
       {/* <!-- brand filter start --> */}
       <div className="collection-mobile-back">
-        <span className="filter-back" onClick={() => setLeftSidebarOpen(!leftSidebarOpen)}>
+        <span
+          className="filter-back"
+          onClick={() => setLeftSidebarOpen(!leftSidebarOpen)}
+        >
           <i className="fa fa-angle-left" aria-hidden="true"></i> back
         </span>
       </div>
@@ -94,7 +103,8 @@ const Sidebar: NextPage = () => {
                       e.preventDefault();
                       setSelectedCategory("ALL");
                       resetFilter();
-                    }}>
+                    }}
+                  >
                     ALL PRODUCTS
                   </a>
                 </li>
@@ -104,146 +114,163 @@ const Sidebar: NextPage = () => {
                       e.preventDefault();
                       setSelectedCategory("FASHION");
                       resetFilter();
-                    }}>
+                    }}
+                  >
                     FASHION
                   </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("ELECTRONICS");
-                        resetFilter();
-                      }}>
-                      ELECTRONIC
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("ELECTRONICS");
+                      resetFilter();
+                    }}
+                  >
+                    ELECTRONIC
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("VEGETABLES");
-                        resetFilter();
-                      }}>
-                      VEGETABLES
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("VEGETABLES");
+                      resetFilter();
+                    }}
+                  >
+                    VEGETABLES
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("FURNITURE");
-                        resetFilter();
-                      }}>
-                      FURNITURE
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("FURNITURE");
+                      resetFilter();
+                    }}
+                  >
+                    FURNITURE
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("JEWELLWEY");
-                        resetFilter();
-                      }}>
-                      JEWELLWEY
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("JEWELLWEY");
+                      resetFilter();
+                    }}
+                  >
+                    JEWELLWEY
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("BEAUTY");
-                        resetFilter();
-                      }}>
-                      BEAUTY
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("BEAUTY");
+                      resetFilter();
+                    }}
+                  >
+                    BEAUTY
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("FLOWER");
-                        resetFilter();
-                      }}>
-                      FLOWER
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("FLOWER");
+                      resetFilter();
+                    }}
+                  >
+                    FLOWER
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("TOOLS");
-                        resetFilter();
-                      }}>
-                      TOOLS
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("TOOLS");
+                      resetFilter();
+                    }}
+                  >
+                    TOOLS
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("WATCH");
-                        resetFilter();
-                      }}>
-                      WATCH
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("WATCH");
+                      resetFilter();
+                    }}
+                  >
+                    WATCH
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("METRO");
-                        resetFilter();
-                      }}>
-                      METRO
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("METRO");
+                      resetFilter();
+                    }}
+                  >
+                    METRO
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("SHOES");
-                        resetFilter();
-                      }}>
-                      SHOES
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("SHOES");
+                      resetFilter();
+                    }}
+                  >
+                    SHOES
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("BAGS");
-                        resetFilter();
-                      }}>
-                      BAGS
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("BAGS");
+                      resetFilter();
+                    }}
+                  >
+                    BAGS
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("KIDS");
-                        resetFilter();
-                      }}>
-                      KIDS
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("KIDS");
+                      resetFilter();
+                    }}
+                  >
+                    KIDS
+                  </a>
                 </li>
                 <li>
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setSelectedCategory("PETS");
-                        resetFilter();
-                      }}>
-                      PETS
-                    </a>
+                  <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setSelectedCategory("PETS");
+                      resetFilter();
+                    }}
+                  >
+                    PETS
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </Collapse>
       </div>
-      {!data || !data.getBrands || data.getBrands.brand.length === 0 || loading ? (
+      {!data ||
+      !data.getBrands ||
+      data.getBrands.brand.length === 0 ||
+      loading ? (
         loading && <h4>Loading</h4>
       ) : (
         <div className="collection-collapse-block open">
@@ -254,7 +281,10 @@ const Sidebar: NextPage = () => {
             <div className="collection-collapse-block-content">
               <div className="collection-brand-filter">
                 {data.getBrands.brand.map((brand: string, i: number) => (
-                  <div className="custom-control custom-checkbox collection-filter-checkbox" key={`brand-${i}`}>
+                  <div
+                    className="custom-control custom-checkbox collection-filter-checkbox"
+                    key={`brand-${i}`}
+                  >
                     <Input
                       checked={selectedBrands.includes(brand)}
                       onChange={() => {
@@ -273,7 +303,10 @@ const Sidebar: NextPage = () => {
         </div>
       )}
       {/* <!-- color filter start here --> */}
-      {!data || !data.getColors || data.getColors.colors.length === 0 || loading ? (
+      {!data ||
+      !data.getColors ||
+      data.getColors.colors.length === 0 ||
+      loading ? (
         loading && <h4>Loading</h4>
       ) : (
         <div className="collection-collapse-block open">
@@ -286,11 +319,14 @@ const Sidebar: NextPage = () => {
                 <ul>
                   {data.getColors.colors.map((color: string, i: number) => (
                     <li
-                      className={`${color} ${selectedColor === color ? "active" : ""}`}
+                      className={`${color} ${
+                        selectedColor === color ? "active" : ""
+                      }`}
                       onClick={() => {
                         setSelectedColor(color);
                       }}
-                      key={i}></li>
+                      key={i}
+                    ></li>
                   ))}
                 </ul>
               </div>

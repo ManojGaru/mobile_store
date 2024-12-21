@@ -13,7 +13,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col>
             <div className="collection-banner-main banner-5 p-center">
               <div className="collection-img">
-                <Media src="/images/layout-2/collection-banner/7.jpg" className="bg-img bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-2/collection-banner/7.jpg"
+                  className="bg-img bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain ">
                 <div className="sub-contain">
@@ -44,7 +48,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="6">
             <div className="collection-banner-main banner-7 p-left">
               <div className="collection-img">
-                <Media src="/images/layout-3/collection-banner/6.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-3/collection-banner/6.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain ">
                 <div>
@@ -63,7 +71,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="6">
             <div className="collection-banner-main banner-7 p-left">
               <div className="collection-img">
-                <Media src="/images/layout-3/collection-banner/7.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-3/collection-banner/7.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain ">
                 <div>
@@ -93,7 +105,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="6">
             <div className="collection-banner-main p-left">
               <div className="collection-img">
-                <Media src="/images/layout-1/collection-banner/1.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-1/collection-banner/1.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -112,7 +128,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="6">
             <div className="collection-banner-main p-left">
               <div className="collection-img">
-                <Media src="/images/layout-1/collection-banner/2.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-1/collection-banner/2.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -142,7 +162,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main banner-1  p-right">
               <div className="collection-img">
-                <Media src="/images/layout-2/collection-banner/1.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-2/collection-banner/1.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -161,7 +185,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main banner-1 p-right">
               <div className="collection-img">
-                <Media src="/images/layout-2/collection-banner/2.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-2/collection-banner/2.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain ">
                 <div>
@@ -180,7 +208,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main banner-1 p-right">
               <div className="collection-img">
-                <Media src="/images/layout-2/collection-banner/3.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-2/collection-banner/3.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain ">
                 <div>
@@ -210,7 +242,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main p-left">
               <div className="collection-img">
-                <Media src="/images/layout-1/collection-banner/3.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-1/collection-banner/3.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -229,7 +265,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main p-left">
               <div className="collection-img">
-                <Media src="/images/layout-1/collection-banner/4.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-1/collection-banner/4.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -248,7 +288,11 @@ const CollectionBannerPage: React.FC = () => (
           <Col md="4">
             <div className="collection-banner-main p-left">
               <div className="collection-img">
-                <Media src="/images/layout-1/collection-banner/5.jpg" className="img-fluid bg-img  " alt="banner" />
+                <Media
+                  src="/images/layout-1/collection-banner/5.jpg"
+                  className="img-fluid bg-img  "
+                  alt="banner"
+                />
               </div>
               <div className="collection-banner-contain">
                 <div>
@@ -280,7 +324,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col xs="6">
                 <div className="collection-banner-main banner-2">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/1.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/1.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain">
                     <div>
@@ -299,7 +347,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col xs="6">
                 <div className="collection-banner-main banner-2">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/2.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/2.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain">
                     <div>
@@ -320,7 +372,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col xs="6">
                 <div className="collection-banner-main banner-2">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/3.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/3.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain ">
                     <div>
@@ -339,7 +395,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col xs="6">
                 <div className="collection-banner-main banner-2">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/4.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/4.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain ">
                     <div>
@@ -362,7 +422,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col xs="12">
                 <div className="collection-banner-main banner-3 p-center ">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/5.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/5.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain  text-center">
                     <div>
@@ -379,7 +443,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col lg="12" md="6">
                 <div className="collection-banner-main banner-4 p-left">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/6.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/6.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain ">
                     <div>
@@ -398,7 +466,11 @@ const CollectionBannerPage: React.FC = () => (
               <Col lg="12" md="6">
                 <div className="collection-banner-main banner-4 p-left">
                   <div className="collection-img">
-                    <Media src="/images/layout-3/collection-banner/7.jpg" className="img-fluid bg-img  " alt="banner" />
+                    <Media
+                      src="/images/layout-3/collection-banner/7.jpg"
+                      className="img-fluid bg-img  "
+                      alt="banner"
+                    />
                   </div>
                   <div className="collection-banner-contain ">
                     <div>
@@ -455,10 +527,13 @@ const CollectionBannerPage: React.FC = () => (
             <div className="discount-banner-contain p-0">
               <h2>Special discout Offer for you</h2>
               <h1>
-                every <span> discount </span> we <span> offer is the best in market!</span>
+                every <span> discount </span> we{" "}
+                <span> offer is the best in market!</span>
               </h1>
               <div className="rounded-contain">
-                <div className="rounded-subcontain">don't just scroll, your friends have already started buying!</div>
+                <div className="rounded-subcontain">
+                  don't just scroll, your friends have already started buying!
+                </div>
               </div>
             </div>
           </Col>
@@ -483,7 +558,7 @@ const CollectionBannerPage: React.FC = () => (
                 <h3>if you have any question please call us</h3>
               </div>
               <div>
-                <h2>123-456-7890</h2>
+                <h2>+91 86976 11611</h2>
               </div>
             </div>
           </Col>

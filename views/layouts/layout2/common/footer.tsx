@@ -9,10 +9,18 @@ const Footer: NextPage = () => (
           <div className="app-link-bloc-contain">
             <div className="app-item-group">
               <div className="app-item">
-                <img src="/images/layout-1/app/1.png" className="img-fluid" alt="app-banner" />
+                <img
+                  src="/images/layout-1/app/1.png"
+                  className="img-fluid"
+                  alt="app-banner"
+                />
               </div>
               <div className="app-item">
-                <img src="/images/layout-1/app/2.png" className="img-fluid" alt="app-banner" />
+                <img
+                  src="/images/layout-1/app/2.png"
+                  className="img-fluid"
+                  alt="app-banner"
+                />
               </div>
             </div>
             <div className="app-item-group ">
@@ -57,14 +65,20 @@ const Footer: NextPage = () => (
           <div className="row">
             <div className="col-lg-3 col-md-12 ">
               <div className="logo-block">
-                <img src="/images/layout-1/logo/logo.png" className="img-fluid  " alt="logo" />
+                <img
+                  src="/images/layout-1/logo/logo.png"
+                  className="img-fluid  "
+                  alt="logo"
+                />
               </div>
             </div>
             <div className="col-lg-9 col-md-12 pe-lg-0">
               <div className="logo-detail">
                 <p>
-                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                  more-or-less normal distribution.{" "}
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution.{" "}
                 </p>
               </div>
             </div>
@@ -146,16 +160,22 @@ const Footer: NextPage = () => (
                   <div className="footer-contant">
                     <ul className="contact-list">
                       <li>
-                        <i className="fa fa-map-marker"></i>big deal store demo store <br /> india-<span>3654123</span>
+                        <i className="fa fa-map-marker"></i>
+                        <span>
+                          mobiplex store <br /> <span> india-3654123</span>
+                        </span>
                       </li>
                       <li>
-                        <i className="fa fa-phone"></i>call us: <span>123-456-7898</span>
+                        <i className="fa fa-phone"></i>
+                        <span>call us: +91 86976 11611</span>
                       </li>
                       <li>
-                        <i className="fa fa-envelope-o"></i>email us: support@bigdeal.com
+                        <i className="fa fa-envelope-o"></i>
+                        <span>email us: support@mobiplex.com</span>
                       </li>
                       <li>
-                        <i className="fa fa-fax"></i>fax <span>123456</span>
+                        <i className="fa fa-fax"></i>
+                        <span>fax +91 86976 11611</span>
                       </li>
                     </ul>
                   </div>
@@ -173,7 +193,8 @@ const Footer: NextPage = () => (
             <div className="col-xl-6 col-md-8 col-sm-12">
               <div className="footer-end">
                 <p>
-                  <span>2023 - 24</span> Copy Right by Themeforest Powered by pixel strap
+                  <span>2023 - 24</span> Copy Right by Mobiplex Powered by pixel
+                  strap
                 </p>
               </div>
             </div>
@@ -182,27 +203,47 @@ const Footer: NextPage = () => (
                 <ul>
                   <li>
                     <a href="#">
-                      <img src="/images/layout-1/pay/1.png" className="img-fluid" alt="pay" />
+                      <img
+                        src="/images/layout-1/pay/1.png"
+                        className="img-fluid"
+                        alt="pay"
+                      />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="/images/layout-1/pay/2.png" className="img-fluid" alt="pay" />
+                      <img
+                        src="/images/layout-1/pay/2.png"
+                        className="img-fluid"
+                        alt="pay"
+                      />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="/images/layout-1/pay/3.png" className="img-fluid" alt="pay" />
+                      <img
+                        src="/images/layout-1/pay/3.png"
+                        className="img-fluid"
+                        alt="pay"
+                      />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="/images/layout-1/pay/4.png" className="img-fluid" alt="pay" />
+                      <img
+                        src="/images/layout-1/pay/4.png"
+                        className="img-fluid"
+                        alt="pay"
+                      />
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <img src="/images/layout-1/pay/5.png" className="img-fluid" alt="pay" />
+                      <img
+                        src="/images/layout-1/pay/5.png"
+                        className="img-fluid"
+                        alt="pay"
+                      />
                     </a>
                   </li>
                 </ul>

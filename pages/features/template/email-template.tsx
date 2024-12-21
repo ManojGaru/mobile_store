@@ -5,7 +5,12 @@ import Image from "next/image";
 
 const EmailTemplate = () => (
   <>
-    <Table borderless className="email-template-table" cellPadding="0" cellSpacing="0">
+    <Table
+      borderless
+      className="email-template-table"
+      cellPadding="0"
+      cellSpacing="0"
+    >
       <tbody>
         <tr>
           <td>
@@ -13,19 +18,19 @@ const EmailTemplate = () => (
               <tbody>
                 <tr className="header">
                   <td>
-                    <Image alt="" src="/images/layout-2/logo/logo.png" className="main-logo" />
+                    <Image
+                      alt=""
+                      src="/images/layout-2/logo/logo.png"
+                      className="main-logo"
+                    />
                   </td>
                   <td className="menu">
                     <ul>
                       <li>
-                        <Link href="/">
-                          Home
-                        </Link>
+                        <Link href="/">Home</Link>
                       </li>
                       <li>
-                        <Link href="/">
-                          Contact
-                        </Link>
+                        <Link href="/">Contact</Link>
                       </li>
                       <li>
                         <a href="#">Whishlist</a>
@@ -42,34 +47,61 @@ const EmailTemplate = () => (
               <tbody>
                 <tr>
                   <td>
-                    <Image src="/images/email-temp/1.jpg" alt="" style={{ width: "100%;" }} />
+                    <Image
+                      src="/images/email-temp/1.jpg"
+                      alt=""
+                      style={{ width: "100%;" }}
+                    />
                   </td>
                 </tr>
               </tbody>
             </Table>
-            <Table cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px;" }}>
+            <Table
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px;" }}
+            >
               <tbody>
                 <tr className="add-with-banner">
                   <td>
                     <a href="#">
-                      <Image alt="" src="/images/email-temp/6.jpg" style={{ width: "100%;" }} />
+                      <Image
+                        alt=""
+                        src="/images/email-temp/6.jpg"
+                        style={{ width: "100%;" }}
+                      />
                     </a>
                   </td>
                   <td>
                     <a href="#">
-                      <Image alt="" src="/images/email-temp/5.jpg" style={{ width: "100%;" }} />
+                      <Image
+                        alt=""
+                        src="/images/email-temp/5.jpg"
+                        style={{ width: "100%;" }}
+                      />
                     </a>
                   </td>
                 </tr>
               </tbody>
             </Table>
-            <Table className="main-bg-light" cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "40px" }}></Table>
+            <Table
+              className="main-bg-light"
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "40px" }}
+            ></Table>
             <Table cellPadding="0" cellSpacing="0" width="100%">
               <tbody>
                 <tr style={{ textAlign: "center" }}>
                   <td>
                     <a href="#">
-                      <Image alt="" src="/images/email-temp/cosmetic.jpg" style={{ width: "100%" }} />
+                      <Image
+                        alt=""
+                        src="/images/email-temp/cosmetic.jpg"
+                        style={{ width: "100%" }}
+                      />
                     </a>
                   </td>
                 </tr>
@@ -78,18 +110,32 @@ const EmailTemplate = () => (
             <h4 className="title" style={{ textAlign: "center" }}>
               Additional 50% Off
             </h4>
-            <h5 style={{ textAlign: "center", margin: "10px", color: "#777" }}>On clothes for kids,women & Mens Wear</h5>
-            <Table align="center" cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px" }}>
+            <h5 style={{ textAlign: "center", margin: "10px", color: "#777" }}>
+              On clothes for kids,women & Mens Wear
+            </h5>
+            <Table
+              align="center"
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr>
                   <td>
                     <div className="product-box hover">
                       <div className="product border-theme br-0">
-                        <Image src="/images/email-temp/pro-1.jpg" alt="product" style={{ width: "170px" }} />
+                        <Image
+                          src="/images/email-temp/pro-1.jpg"
+                          alt="product"
+                          style={{ width: "170px" }}
+                        />
                       </div>
                       <div className="product-info">
                         <a href="#" style={{ textAlign: "center" }}>
-                          <h6 style={{ textAlign: "center" }}>When an unknown.</h6>
+                          <h6 style={{ textAlign: "center" }}>
+                            When an unknown.
+                          </h6>
                         </a>
                         <h4 style={{ textAlign: "center" }}>$45.00</h4>
                       </div>
@@ -98,7 +144,12 @@ const EmailTemplate = () => (
                   <td>
                     <div className="product-box hover">
                       <div className="product border-theme br-0">
-                        <Image src="/images/email-temp/pro-2.jpg" alt="product" style={{ width: "170px" }} className="img-fluid " />
+                        <Image
+                          src="/images/email-temp/pro-2.jpg"
+                          alt="product"
+                          style={{ width: "170px" }}
+                          className="img-fluid "
+                        />
                       </div>
                       <div className="product-info">
                         <div className="rating">
@@ -109,7 +160,9 @@ const EmailTemplate = () => (
                           <i className="fa fa-star"></i>
                         </div>
                         <a href="#" style={{ textAlign: "center" }}>
-                          <h6 style={{ textAlign: "center" }}>When an unknown.</h6>
+                          <h6 style={{ textAlign: "center" }}>
+                            When an unknown.
+                          </h6>
                         </a>
                         <h4 style={{ textAlign: "center" }}>$45.00</h4>
                       </div>
@@ -118,7 +171,12 @@ const EmailTemplate = () => (
                   <td>
                     <div className="product-box hover">
                       <div className="product border-theme br-0">
-                        <Image src="/images/email-temp/pro-3.jpg" alt="product" style={{ width: "170px" }} className="img-fluid " />
+                        <Image
+                          src="/images/email-temp/pro-3.jpg"
+                          alt="product"
+                          style={{ width: "170px" }}
+                          className="img-fluid "
+                        />
                       </div>
                       <div className="product-info">
                         <div className="rating">
@@ -129,7 +187,9 @@ const EmailTemplate = () => (
                           <i className="fa fa-star"></i>
                         </div>
                         <a href="#" style={{ textAlign: "center" }}>
-                          <h6 style={{ textAlign: "center" }}>When an unknown.</h6>
+                          <h6 style={{ textAlign: "center" }}>
+                            When an unknown.
+                          </h6>
                         </a>
                         <h4 style={{ textAlign: "center" }}>$45.00</h4>
                       </div>
@@ -139,53 +199,97 @@ const EmailTemplate = () => (
               </tbody>
             </Table>
 
-            <Table className="main-bg-light text-center" align="center" cellPadding="0" cellSpacing="0" width="100%" style={{ marginTop: "30px" }}>
+            <Table
+              className="main-bg-light text-center"
+              align="center"
+              cellPadding="0"
+              cellSpacing="0"
+              width="100%"
+              style={{ marginTop: "30px" }}
+            >
               <tbody>
                 <tr>
                   <td style={{ padding: "30px" }}>
                     <div>
-                      <h4 className="title" style={{ margin: "0", textAlign: "center" }}>
+                      <h4
+                        className="title"
+                        style={{ margin: "0", textAlign: "center" }}
+                      >
                         Follow us
                       </h4>
                     </div>
-                    <Table cellPadding="0" cellSpacing="0" className="footer-social-icon text-center" align="center" style={{ width: "auto", marginTop: "20px;" }}>
+                    <Table
+                      cellPadding="0"
+                      cellSpacing="0"
+                      className="footer-social-icon text-center"
+                      align="center"
+                      style={{ width: "auto", marginTop: "20px;" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/facebook.png" alt="" />
+                              <Image
+                                src="/images/email-temp/facebook.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/youtube.png" alt="" />
+                              <Image
+                                src="/images/email-temp/youtube.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/twitter.png" alt="" />
+                              <Image
+                                src="/images/email-temp/twitter.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/gplus.png" alt="" />
+                              <Image
+                                src="/images/email-temp/gplus.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/linkedin.png" alt="" />
+                              <Image
+                                src="/images/email-temp/linkedin.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                           <td>
                             <a href="#">
-                              <Image src="/images/email-temp/pinterest.png" alt="" />
+                              <Image
+                                src="/images/email-temp/pinterest.png"
+                                alt=""
+                              />
                             </a>
                           </td>
                         </tr>
                       </tbody>
                     </Table>
-                    <div style={{ borderTop: "1px solid #ddd", margin: "20px auto 0" }}></div>
-                    <Table cellPadding="0" cellSpacing="0" width="100%" style={{ margin: "20px auto 0" }}>
+                    <div
+                      style={{
+                        borderTop: "1px solid #ddd",
+                        margin: "20px auto 0",
+                      }}
+                    ></div>
+                    <Table
+                      cellPadding="0"
+                      cellSpacing="0"
+                      width="100%"
+                      style={{ margin: "20px auto 0" }}
+                    >
                       <tbody>
                         <tr>
                           <td>
@@ -196,12 +300,22 @@ const EmailTemplate = () => (
                         </tr>
                         <tr>
                           <td>
-                            <p style={{ fontSize: "13px", margin: "0" }}>2022 - 23 Copy Right by Themeforest powerd by Pixel Strap</p>
+                            <p style={{ fontSize: "13px", margin: "0" }}>
+                              2022 - 23 Copy Right by Mobiplex powerd by Pixel
+                              Strap
+                            </p>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a href="#" style={{ fontSize: "13px", margin: "0", textDecoration: "underline" }}>
+                            <a
+                              href="#"
+                              style={{
+                                fontSize: "13px",
+                                margin: "0",
+                                textDecoration: "underline",
+                              }}
+                            >
                               Unsubscribe
                             </a>
                           </td>
