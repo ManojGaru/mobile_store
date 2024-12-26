@@ -743,7 +743,9 @@ body {
       .brand-panel-contain {
         background-color: $light-layout;
         ul {
+          overflow-x: scroll;
           li {
+            
             a {
               color: $font-layout-5;
             }

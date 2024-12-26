@@ -5,7 +5,7 @@ type TopBrandProps = {};
 const TopBrand: React.FC<TopBrandProps> = () => {
   return (
     <Fragment>
-      <div className="brand-panel-contain ">
+      <div className="brand-panel-contain">
         <ul>
           <li>
             <a href="#">top brand</a>

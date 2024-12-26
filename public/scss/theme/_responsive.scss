@@ -4145,9 +4145,21 @@
   .brand-panel {
     .brand-panel-box {
       .brand-panel-contain {
+        
         ul {
+          margin-bottom: 10;
+          display: flex;
+          overflow-x: scroll;
           > li:not(first-child) {
-            margin: 2px 1px;
+            margin: 20px 1px;
+            margin-top: 40px;
+          }
+          >li:is(:first-child){
+            // display: none;
+            // margin: 20px 20px;
+            position: absolute;
+            left: 37%;
+           // padding-bottom: 10%;
           }
         }
       }
@@ -7115,6 +7127,21 @@
     padding: 2px;
     font-size: 19px;
   }
+}
+
+@media (max-width:700px) {
+  .img-fluid-responsive{
+    height: 24px;
+    width: 130px;
+  }
+  
+}
+@media (min-width:700px) {
+  .img-fluid-responsive{
+    height: 80px;
+    width: 200px;
+  }
+  
 }
 @media (max-width: 575px) {
   .discount-banner {

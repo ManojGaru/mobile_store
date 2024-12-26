@@ -13,7 +13,8 @@ const HorizaontalMenu: NextPage = () => {
         onClick={() => {
           setMenuResponsive(!menuResponsive);
           document.body.style.overflow = "visible";
-        }}></div>
+        }}
+      ></div>
       <div className="menu-block">
         <nav id="main-nav">
           <div
@@ -21,10 +22,16 @@ const HorizaontalMenu: NextPage = () => {
             onClick={() => {
               setMenuResponsive(!menuResponsive);
               document.body.style.overflow = "hidden";
-            }}>
-            <i className="fa fa-bars sidebar-bar"></i>
+            }}
+          >
+            {/* <i className="fa fa-bars sidebar-bar"></i> */}
           </div>
-          <ul id="main-menu" className={`sm pixelstrap sm-horizontal ${menuResponsive ? "menu-open" : ""}`}>
+          <ul
+            id="main-menu"
+            className={`sm pixelstrap sm-horizontal ${
+              menuResponsive ? "menu-open" : ""
+            }`}
+          >
             <MenuBar />
           </ul>
         </nav>
