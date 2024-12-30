@@ -273,7 +273,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -297,7 +297,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -321,7 +321,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -354,7 +354,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -378,7 +378,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -402,7 +402,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -435,7 +435,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -459,7 +459,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -483,7 +483,7 @@ const HotDeal: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>

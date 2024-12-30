@@ -17,16 +17,24 @@ const LookBookPage: NextPage = () => {
             <Col md="6">
               <div className="lookbook-block">
                 <div>
-                  <Media src="/images/look-book/1.jpg" className="img-fluid  bg-img" alt="" />
+                  <Media
+                    src="/images/look-book/1.jpg"
+                    className="img-fluid  bg-img"
+                    alt=""
+                  />
                 </div>
                 <div className="lookbook-dot">
                   <span>1</span>
                   <a href="#">
                     <div className="dot-showbox">
-                      <Media src="/images/product-sidebar/002.jpg" className="img-fluid " alt="" />
+                      <Media
+                        src="/images/product-sidebar/002.jpg"
+                        className="img-fluid "
+                        alt=""
+                      />
                       <div className="dot-info">
                         <h5 className="title">tee</h5>
-                        <h5>200$</h5>
+                        <h5>200₹</h5>
                         <h6>details</h6>
                       </div>
                     </div>
@@ -36,10 +44,14 @@ const LookBookPage: NextPage = () => {
                   <span>2</span>
                   <a href="#">
                     <div className="dot-showbox">
-                      <Media src="/images/product-sidebar/001.jpg" className="img-fluid  " alt="" />
+                      <Media
+                        src="/images/product-sidebar/001.jpg"
+                        className="img-fluid  "
+                        alt=""
+                      />
                       <div className="dot-info">
                         <h5 className="title">tee</h5>
-                        <h5>200$</h5>
+                        <h5>200₹</h5>
                         <h6>details</h6>
                       </div>
                     </div>
@@ -50,16 +62,24 @@ const LookBookPage: NextPage = () => {
             <Col md="6">
               <div className="lookbook-block">
                 <div>
-                  <Media src="/images/look-book/2.jpg" className="img-fluid  bg-img" alt="" />
+                  <Media
+                    src="/images/look-book/2.jpg"
+                    className="img-fluid  bg-img"
+                    alt=""
+                  />
                 </div>
                 <div className="lookbook-dot dot3">
                   <span>1</span>
                   <a href="#">
                     <div className="dot-showbox">
-                      <Media src="/images/product-sidebar/003.jpg" className="img-fluid " alt="" />
+                      <Media
+                        src="/images/product-sidebar/003.jpg"
+                        className="img-fluid "
+                        alt=""
+                      />
                       <div className="dot-info">
                         <h5 className="title">tee</h5>
-                        <h5>200$</h5>
+                        <h5>200₹</h5>
                         <h6>details</h6>
                       </div>
                     </div>
@@ -69,10 +89,14 @@ const LookBookPage: NextPage = () => {
                   <span>2</span>
                   <a href="#">
                     <div className="dot-showbox">
-                      <Media src="/images/product-sidebar/004.jpg" className="img-fluid " alt="" />
+                      <Media
+                        src="/images/product-sidebar/004.jpg"
+                        className="img-fluid "
+                        alt=""
+                      />
                       <div className="dot-info">
                         <h5 className="title">tee</h5>
-                        <h5>200$</h5>
+                        <h5>200₹</h5>
                         <h6>details</h6>
                       </div>
                     </div>

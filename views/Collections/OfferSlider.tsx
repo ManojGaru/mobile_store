@@ -46,12 +46,12 @@ const offerdata = [
   {
     image: "001.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     image: "003.jpg",
     title: "Slim Fit Silk T-Shirt",
-    price: "$400.00",
+    price: "₹400.00",
   },
 ];
 const OfferSlider: NextPage = () => (
@@ -63,11 +63,17 @@ const OfferSlider: NextPage = () => (
           <div key={i}>
             <div className="media">
               <a href="">
-                <Media className="img-fluid " src={`/images/product-sidebar/${offer.image}`} alt="" />
+                <Media
+                  className="img-fluid "
+                  src={`/images/product-sidebar/₹{offer.image}`}
+                  alt=""
+                />
               </a>
               <div className="media-body align-self-center">
                 <div className="rating">
-                  <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                  <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                  <i className="fa fa-star"></i>
                 </div>
                 <a href="#">
                   <h6>{offer.title}</h6>

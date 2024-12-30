@@ -19,7 +19,9 @@ const OrderSuccessPage: NextPage = () => {
   const getDateFormate = () => {
     var currentDate: any = new Date();
     var temp = new Date(currentDate.setDate(currentDate.getDate() + 1));
-    return temp.getDate() + "/" + (temp.getMonth() + 1) + "/" + temp.getFullYear();
+    return (
+      temp.getDate() + "/" + (temp.getMonth() + 1) + "/" + temp.getFullYear()
+    );
   };
   return (
     <>
@@ -40,7 +42,11 @@ const OrderSuccessPage: NextPage = () => {
                       return (
                         <Fragment key={i}>
                           <Col xs="3">
-                            <Media src={`/images/${item.images[0].src}`} alt="" className="img-fluid " />
+                            <Media
+                              src={`/images/${item.images[0].src}`}
+                              alt=""
+                              className="img-fluid "
+                            />
                           </Col>
                           <Col xs="3" className="order_detail">
                             <div>
@@ -110,7 +116,7 @@ const OrderSuccessPage: NextPage = () => {
                     <ul className="order-detail">
                       <li>order ID: 5563853658932</li>
                       <li>Order Date: October 22, 2023</li>
-                      <li>Order Total: $907.28</li>
+                      <li>Order Total: ₹907.28</li>
                     </ul>
                   </div>
                   <div className="col-sm-6">
@@ -124,7 +130,11 @@ const OrderSuccessPage: NextPage = () => {
                   </div>
                   <div className="col-sm-12 payment-mode">
                     <h4>payment method</h4>
-                    <p>Pay on Delivery (Cash/Card). Cash on delivery (COD) availabel. Card/Net banking acceptance subject to device availability.</p>
+                    <p>
+                      Pay on Delivery (Cash/Card). Cash on delivery (COD)
+                      availabel. Card/Net banking acceptance subject to device
+                      availability.
+                    </p>
                   </div>
                   <div className="col-md-12">
                     <div className="delivery-sec">
@@ -139,7 +149,11 @@ const OrderSuccessPage: NextPage = () => {
             <div className="col-sm-12">
               <div>
                 <div className="col-sm-12 empty-cart-cls text-center">
-                  <img src={`static/images/icon-empty-cart.png`} className="img-fluid mb-4" alt="" />
+                  <img
+                    src={`static/images/icon-empty-cart.png`}
+                    className="img-fluid mb-4"
+                    alt=""
+                  />
                   <h3 className="mb-3">
                     <strong>You are not placing any order</strong>
                   </h3>
@@ -149,7 +163,10 @@ const OrderSuccessPage: NextPage = () => {
                         continue shopping
                       </a>
                       {items && (
-                        <a href="/pages/account/checkout" className="btn btn-normal ms-3">
+                        <a
+                          href="/pages/account/checkout"
+                          className="btn btn-normal ms-3"
+                        >
                           check out
                         </a>
                       )}

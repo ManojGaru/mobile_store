@@ -48,50 +48,50 @@ var settings = {
 const CategoryList = [
   {
     img: "/images/layout-6/payment-offer/1.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
   {
     img: "/images/layout-6/payment-offer/2.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
   {
     img: "/images/layout-6/payment-offer/1.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
   {
     img: "/images/layout-6/payment-offer/2.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
   {
     img: "/images/layout-6/payment-offer/1.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
   {
     img: "/images/layout-6/payment-offer/2.png",
-    offerAmt: "$200",
+    offerAmt: "₹200",
     title: "OUR FEATURED OFFERS",
     subTitle: "shop for",
-    amt: "$50",
+    amt: "₹50",
     code: "citioct",
   },
 ];
@@ -109,7 +109,10 @@ const PaymentOffer: NextPage = () => {
                     <div key={i}>
                       <div className="paymant-offer-mian">
                         <div>
-                          <Media src={data.img} alt="Generic placeholder image" />
+                          <Media
+                            src={data.img}
+                            alt="Generic placeholder image"
+                          />
                           <h2>{data.offerAmt}</h2>
                           <h3>{data.title}</h3>
                           <h4>

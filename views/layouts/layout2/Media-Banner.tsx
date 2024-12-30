@@ -4,37 +4,37 @@ import { NextPage } from "next";
 import { Container, Row, Col, Media } from "reactstrap";
 
 var settings = {
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    infinite: true,
-    arrows: false,
-    fade: false,
-    responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true
-          }
-        },
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true
-          }
-        },
-        {
-          breakpoint: 577,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true
-          }
-        },
-      ]
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  infinite: true,
+  arrows: false,
+  fade: false,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 577,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      },
+    },
+  ],
 };
 
 const MediaBanner: NextPage = () => (
@@ -52,7 +52,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid" alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/1.jpg"
+                      className="img-fluid"
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -64,7 +68,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -72,7 +76,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/2.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -84,7 +92,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -101,7 +109,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/3.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/3.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -113,7 +125,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -121,7 +133,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/4.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/4.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -133,7 +149,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -150,7 +166,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/1.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -162,7 +182,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -170,7 +190,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/2.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -182,7 +206,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -199,7 +223,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/3.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/3.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -211,7 +239,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -219,7 +247,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/4.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/4.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -231,7 +263,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -248,7 +280,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/1.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -260,7 +296,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>
@@ -268,7 +304,11 @@ const MediaBanner: NextPage = () => (
                 </div>
                 <div className="media-banner-box">
                   <div className="media">
-                    <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                    <Media
+                      src="/images/layout-1/media-banner/2.jpg"
+                      className="img-fluid  "
+                      alt="banner"
+                    />
                     <div className="media-body">
                       <div className="media-contant">
                         <div>
@@ -280,7 +320,7 @@ const MediaBanner: NextPage = () => (
                             <i className="fa fa-star"></i>
                           </div>
                           <p>Generator on Internet.</p>
-                          <h6>$153.00</h6>
+                          <h6>₹153.00</h6>
                         </div>
                       </div>
                     </div>

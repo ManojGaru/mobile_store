@@ -20,57 +20,57 @@ const productData = [
     img1: "/images/layout-2/product/1.jpg",
     img2: "/images/layout-2/product/a1.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/2.jpg",
     img2: "/images/layout-2/product/a2.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/3.jpg",
     img2: "/images/layout-2/product/a3.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/4.jpg",
     img2: "/images/layout-2/product/a4.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/5.jpg",
     img2: "/images/layout-2/product/a5.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/6.jpg",
     img2: "/images/layout-2/product/a6.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/7.jpg",
     img2: "/images/layout-2/product/a7.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
   {
     img1: "/images/layout-2/product/8.jpg",
     img2: "/images/layout-2/product/a8.jpg",
     title: "reader will be distracted.",
-    price: "$ 56.21",
-    discount: "$ 24.05",
+    price: "₹ 56.21",
+    discount: "₹ 24.05",
   },
 ];
 
@@ -109,13 +109,22 @@ const ProductList: React.FC<productsProps> = ({ product }) => {
               </div>
             </div>
             <div className="icon-detail">
-              <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+              <button
+                data-toggle="modal"
+                data-target="#addtocart"
+                title="Add to cart"
+              >
                 <i className="ti-bag"></i>
               </button>
               <a href="" title="Add to Wishlist">
                 <i className="ti-heart" aria-hidden="true"></i>
               </a>
-              <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#quick-view"
+                title="Quick View"
+              >
                 <i className="ti-search" aria-hidden="true"></i>
               </a>
               <a href="#" title="Compare">
@@ -145,7 +154,12 @@ const SearchPage: NextPage = () => {
                 <Col lg="6" className="offset-lg-3">
                   <form className="form-header">
                     <div className="input-group">
-                      <input type="text" className="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Search Products......" />
+                      <input
+                        type="text"
+                        className="form-control"
+                        aria-label="Amount (to the nearest dollar)"
+                        placeholder="Search Products......"
+                      />
                       <div className="input-group-append">
                         <button className="btn btn-normal">
                           <i className="fa fa-search"></i>Search

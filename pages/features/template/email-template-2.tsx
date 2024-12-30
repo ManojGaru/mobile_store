@@ -226,12 +226,12 @@ const EmailTemplate2 = () => (
                                 data-min="10"
                                 data-max="35"
                               >
-                                $25.00
+                                ₹25.00
                               </span>
                               <span className="txt-price2">
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              $20.90
+                              ₹20.90
                             </div>
                             <div
                               style={{
@@ -296,12 +296,12 @@ const EmailTemplate2 = () => (
                                 data-min="10"
                                 data-ax="35"
                               >
-                                $25.00
+                                ₹25.00
                               </span>
                               <span className="txt-price2">
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              $20.90
+                              ₹20.90
                             </div>
                             <div
                               style={{
@@ -380,12 +380,12 @@ const EmailTemplate2 = () => (
                                 data-min="10"
                                 data-max="35"
                               >
-                                $25.00
+                                ₹25.00
                               </span>
                               <span className="txt-price2">
                                 &nbsp;&nbsp;&nbsp;
                               </span>
-                              $20.90
+                              ₹20.90
                             </div>
                             <div
                               style={{
@@ -455,7 +455,7 @@ const EmailTemplate2 = () => (
                         <a href="#">
                           <h6>When an unknown.</h6>
                         </a>
-                        <h4>$45.00</h4>
+                        <h4>₹45.00</h4>
                       </div>
                     </div>
                   </td>
@@ -479,7 +479,7 @@ const EmailTemplate2 = () => (
                         <a href="#">
                           <h6>When an unknown.</h6>
                         </a>
-                        <h4>$45.00</h4>
+                        <h4>₹45.00</h4>
                       </div>
                     </div>
                   </td>

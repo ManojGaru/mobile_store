@@ -137,7 +137,7 @@ const EmailTemplate = () => (
                             When an unknown.
                           </h6>
                         </a>
-                        <h4 style={{ textAlign: "center" }}>$45.00</h4>
+                        <h4 style={{ textAlign: "center" }}>₹45.00</h4>
                       </div>
                     </div>
                   </td>
@@ -164,7 +164,7 @@ const EmailTemplate = () => (
                             When an unknown.
                           </h6>
                         </a>
-                        <h4 style={{ textAlign: "center" }}>$45.00</h4>
+                        <h4 style={{ textAlign: "center" }}>₹45.00</h4>
                       </div>
                     </div>
                   </td>
@@ -191,7 +191,7 @@ const EmailTemplate = () => (
                             When an unknown.
                           </h6>
                         </a>
-                        <h4 style={{ textAlign: "center" }}>$45.00</h4>
+                        <h4 style={{ textAlign: "center" }}>₹45.00</h4>
                       </div>
                     </div>
                   </td>

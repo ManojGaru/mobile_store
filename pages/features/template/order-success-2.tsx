@@ -175,7 +175,7 @@ const OrderSuccess2: NextPage = () => (
                         marginTop: "15px",
                       }}
                     >
-                      <b>$500</b>
+                      <b>₹500</b>
                     </h5>
                   </td>
                 </tr>
@@ -221,7 +221,7 @@ const OrderSuccess2: NextPage = () => (
                         marginTop: "15px",
                       }}
                     >
-                      <b>$500</b>
+                      <b>₹500</b>
                     </h5>
                   </td>
                 </tr>
@@ -267,7 +267,7 @@ const OrderSuccess2: NextPage = () => (
                         marginTop: "15px",
                       }}
                     >
-                      <b>$500</b>
+                      <b>₹500</b>
                     </h5>
                   </td>
                 </tr>
@@ -313,7 +313,7 @@ const OrderSuccess2: NextPage = () => (
                         marginTop: "15px",
                       }}
                     >
-                      <b>$500</b>
+                      <b>₹500</b>
                     </h5>
                   </td>
                 </tr>
@@ -322,7 +322,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>Subtotal : </p>
                   </td>
                   <td className="m-t-5" colSpan={2} align="right">
-                    <b>$2000</b>
+                    <b>₹2000</b>
                   </td>
                 </tr>
                 <tr className="pad-left-right-space">
@@ -330,7 +330,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>TAX :</p>
                   </td>
                   <td colSpan={2} align="right">
-                    <b>$5</b>
+                    <b>₹5</b>
                   </td>
                 </tr>
                 <tr className="pad-left-right-space">
@@ -338,7 +338,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>VAT :</p>
                   </td>
                   <td colSpan={2} align="right">
-                    <b>$5</b>
+                    <b>₹5</b>
                   </td>
                 </tr>
                 <tr className="pad-left-right-space">
@@ -346,7 +346,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>SHIPPING Charge :</p>
                   </td>
                   <td colSpan={2} align="right">
-                    <b>$2</b>
+                    <b>₹2</b>
                   </td>
                 </tr>
                 <tr className="pad-left-right-space">
@@ -354,7 +354,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>Discount :</p>
                   </td>
                   <td colSpan={2} align="right">
-                    <b> $1000</b>
+                    <b> ₹1000</b>
                   </td>
                 </tr>
                 <tr className="pad-left-right-space ">
@@ -362,7 +362,7 @@ const OrderSuccess2: NextPage = () => (
                     <p style={{ fontSize: "14px" }}>Total :</p>
                   </td>
                   <td className="m-b-5" colSpan={2} align="right">
-                    <b>$2600</b>
+                    <b>₹2600</b>
                   </td>
                 </tr>
               </tbody>

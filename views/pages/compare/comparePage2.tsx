@@ -58,7 +58,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: "XL, L, M, S, XS",
@@ -70,7 +70,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: " S, XS",
@@ -82,7 +82,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: "XL, L, XS",
@@ -94,7 +94,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: "XL, S, XS",
@@ -106,7 +106,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: "XL, L, M ",
@@ -118,7 +118,7 @@ const compareData = [
   {
     img: "/images/product-sidebar/001.jpg",
     pro_name: "slim fit shirt",
-    price: "$555",
+    price: "₹555",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     brand: "Zara",
     size: "XL, L, M, S, XS",

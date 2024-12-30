@@ -16,62 +16,62 @@ const productData = [
   {
     img: "/images/metro/1.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/2.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/3.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/4.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/7.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/6.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/9.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/12.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/10.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/15.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/16.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/13.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
 ];
 
@@ -85,13 +85,22 @@ const ProductList: React.FC<productProps> = ({ product }) => {
               <Media src={product.img} className="img-fluid  " alt="product" />
             </div>
             <div className="product-icon">
-              <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+              <button
+                data-toggle="modal"
+                data-target="#addtocart"
+                title="Add to cart"
+              >
                 <i className="ti-bag"></i>
               </button>
               <a href="#" title="Add to Wishlist">
                 <i className="ti-heart" aria-hidden="true"></i>
               </a>
-              <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#quick-view"
+                title="Quick View"
+              >
                 <i className="ti-search" aria-hidden="true"></i>
               </a>
               <a href="#" title="Compare">
@@ -123,23 +132,39 @@ const CollectionMetro: React.FC = () => {
     <div className="page-main-content">
       <div className="top-banner-wrapper">
         <a href="#">
-          <Media src="/images/category/1.jpg" className="img-fluid  w-100" alt="category" />
+          <Media
+            src="/images/category/1.jpg"
+            className="img-fluid  w-100"
+            alt="category"
+          />
         </a>
         <div className="top-banner-content small-section pb-0">
           <h4>fashion</h4>
-          <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+          <h5>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </h5>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
-            was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industrys standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
       </div>
       <div className="collection-product-wrapper">
         <div className="section-big-pt-space portfolio-section portfolio-padding metro-section port-col">
           <Row className="isotopeContainer metro-block">
-            <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid masonry-with-dec" columnClassName="my-masonry-grid_column">
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="my-masonry-grid masonry-with-dec"
+              columnClassName="my-masonry-grid_column"
+            >
               {productData.map((data, i) => (
                 <ProductList product={data} key={i} />
               ))}
@@ -155,7 +180,10 @@ const CollectionMetro: React.FC = () => {
                     <li className="page-item">
                       <a className="page-link" href="#" aria-label="Previous">
                         <span aria-hidden="true">
-                          <i className="fa fa-chevron-left" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-chevron-left"
+                            aria-hidden="true"
+                          ></i>
                         </span>{" "}
                         <span className="sr-only">Previous</span>
                       </a>
@@ -178,7 +206,10 @@ const CollectionMetro: React.FC = () => {
                     <li className="page-item">
                       <a className="page-link" href="#" aria-label="Next">
                         <span aria-hidden="true">
-                          <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-chevron-right"
+                            aria-hidden="true"
+                          ></i>
                         </span>{" "}
                         <span className="sr-only">Next</span>
                       </a>

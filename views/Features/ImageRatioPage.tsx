@@ -48,12 +48,19 @@ const ImageRatioPage: NextPage = () => {
           <Container>
             <Row>
               <Col>
-                <Slider className="product-4 product-m no-arrow product" {...settings}>
+                <Slider
+                  className="product-4 product-m no-arrow product"
+                  {...settings}
+                >
                   <div>
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/1.jpg" className="img-fluid" alt="product" />
+                          <Img
+                            src="/images/img-ratio/1.jpg"
+                            className="img-fluid"
+                            alt="product"
+                          />
                         </div>
                       </div>
                       <div className="product-detail detail-center ">
@@ -67,24 +74,35 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
                         <div className="icon-detail">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -98,7 +116,11 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/3.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/3.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                       </div>
                       <div className="product-detail detail-center ">
@@ -112,24 +134,35 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
                         <div className="icon-detail">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -143,7 +176,11 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/5.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/5.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                       </div>
                       <div className="product-detail detail-center ">
@@ -157,24 +194,35 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
                         <div className="icon-detail">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -188,7 +236,11 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/7.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/7.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                       </div>
                       <div className="product-detail detail-center ">
@@ -202,24 +254,35 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
                         <div className="icon-detail">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -247,11 +310,19 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/9.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/9.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon icon-center">
                           <div>
-                            <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                            <button
+                              data-toggle="modal"
+                              data-target="#addtocart"
+                              title="Add to cart"
+                            >
                               <i className="ti-bag"></i>
                             </button>
                             <a href="javascript" title="Add to Wishlist">
@@ -259,7 +330,12 @@ const ImageRatioPage: NextPage = () => {
                             </a>
                           </div>
                           <div>
-                            <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                            <a
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#quick-view"
+                              title="Quick View"
+                            >
                               <i className="ti-search" aria-hidden="true"></i>
                             </a>
                             <a href="#" title="Compare">
@@ -279,13 +355,15 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
@@ -296,11 +374,19 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/10.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/10.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon icon-center">
                           <div>
-                            <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                            <button
+                              data-toggle="modal"
+                              data-target="#addtocart"
+                              title="Add to cart"
+                            >
                               <i className="ti-bag"></i>
                             </button>
                             <a href="javascript" title="Add to Wishlist">
@@ -308,7 +394,12 @@ const ImageRatioPage: NextPage = () => {
                             </a>
                           </div>
                           <div>
-                            <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                            <a
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#quick-view"
+                              title="Quick View"
+                            >
                               <i className="ti-search" aria-hidden="true"></i>
                             </a>
                             <a href="#" title="Compare">
@@ -328,13 +419,15 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
@@ -345,11 +438,19 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/11.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/11.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon icon-center">
                           <div>
-                            <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                            <button
+                              data-toggle="modal"
+                              data-target="#addtocart"
+                              title="Add to cart"
+                            >
                               <i className="ti-bag"></i>
                             </button>
                             <a href="javascript" title="Add to Wishlist">
@@ -357,7 +458,12 @@ const ImageRatioPage: NextPage = () => {
                             </a>
                           </div>
                           <div>
-                            <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                            <a
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#quick-view"
+                              title="Quick View"
+                            >
                               <i className="ti-search" aria-hidden="true"></i>
                             </a>
                             <a href="#" title="Compare">
@@ -377,13 +483,15 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
@@ -394,11 +502,19 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/12.jpg" className="img-fluid bg-img " alt="product" />
+                          <Img
+                            src="/images/img-ratio/12.jpg"
+                            className="img-fluid bg-img "
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon icon-center">
                           <div>
-                            <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                            <button
+                              data-toggle="modal"
+                              data-target="#addtocart"
+                              title="Add to cart"
+                            >
                               <i className="ti-bag"></i>
                             </button>
                             <a href="javascript" title="Add to Wishlist">
@@ -406,7 +522,12 @@ const ImageRatioPage: NextPage = () => {
                             </a>
                           </div>
                           <div>
-                            <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                            <a
+                              href="#"
+                              data-toggle="modal"
+                              data-target="#quick-view"
+                              title="Quick View"
+                            >
                               <i className="ti-search" aria-hidden="true"></i>
                             </a>
                             <a href="#" title="Compare">
@@ -426,13 +547,15 @@ const ImageRatioPage: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <a href="">
-                              <h6 className="price-title">reader will be distracted.</h6>
+                              <h6 className="price-title">
+                                reader will be distracted.
+                              </h6>
                             </a>
                           </div>
                           <div className="detail-right">
-                            <div className="check-price">$ 56.21</div>
+                            <div className="check-price">₹ 56.21</div>
                             <div className="price">
-                              <div className="price">$ 24.05</div>
+                              <div className="price">₹ 24.05</div>
                             </div>
                           </div>
                         </div>
@@ -453,21 +576,37 @@ const ImageRatioPage: NextPage = () => {
           <Container>
             <Row>
               <Col>
-                <Slider className="product-4 product-m no-arrow product" {...settings}>
+                <Slider
+                  className="product-4 product-m no-arrow product"
+                  {...settings}
+                >
                   <div>
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/13.jpg" className="img-fluid bg-img" alt="product" />
+                          <Img
+                            src="/images/img-ratio/13.jpg"
+                            className="img-fluid bg-img"
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -495,7 +634,7 @@ const ImageRatioPage: NextPage = () => {
                         </ul>
                         <h6>reader will be distracted.</h6>
                         <span className="detail-price">
-                          $56.21<span>$24.00</span>
+                          ₹56.21<span>₹24.00</span>
                         </span>
                       </div>
                     </div>
@@ -504,16 +643,29 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/15.jpg" className="img-fluid bg-img" alt="product" />
+                          <Img
+                            src="/images/img-ratio/15.jpg"
+                            className="img-fluid bg-img"
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -541,7 +693,7 @@ const ImageRatioPage: NextPage = () => {
                         </ul>
                         <h6>reader will be distracted.</h6>
                         <span className="detail-price">
-                          $56.21<span>$24.00</span>
+                          ₹56.21<span>₹24.00</span>
                         </span>
                       </div>
                     </div>
@@ -550,16 +702,29 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/17.jpg" className="img-fluid bg-img" alt="product" />
+                          <Img
+                            src="/images/img-ratio/17.jpg"
+                            className="img-fluid bg-img"
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -587,7 +752,7 @@ const ImageRatioPage: NextPage = () => {
                         </ul>
                         <h6>reader will be distracted.</h6>
                         <span className="detail-price">
-                          $56.21<span>$24.00</span>
+                          ₹56.21<span>₹24.00</span>
                         </span>
                       </div>
                     </div>
@@ -596,16 +761,29 @@ const ImageRatioPage: NextPage = () => {
                     <div className="product-box">
                       <div className="product-imgbox">
                         <div className="product-front">
-                          <Img src="/images/img-ratio/19.jpg" className="img-fluid  bg-img" alt="product" />
+                          <Img
+                            src="/images/img-ratio/19.jpg"
+                            className="img-fluid  bg-img"
+                            alt="product"
+                          />
                         </div>
                         <div className="product-icon">
-                          <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addtocart"
+                            title="Add to cart"
+                          >
                             <i className="ti-bag"></i>
                           </button>
                           <a href="javascript" title="Add to Wishlist">
                             <i className="ti-heart" aria-hidden="true"></i>
                           </a>
-                          <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+                          <a
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#quick-view"
+                            title="Quick View"
+                          >
                             <i className="ti-search" aria-hidden="true"></i>
                           </a>
                           <a href="#" title="Compare">
@@ -633,7 +811,7 @@ const ImageRatioPage: NextPage = () => {
                         </ul>
                         <h6>reader will be distracted.</h6>
                         <span className="detail-price">
-                          $56.21<span>$24.00</span>
+                          ₹56.21<span>₹24.00</span>
                         </span>
                       </div>
                     </div>

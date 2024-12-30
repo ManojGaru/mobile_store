@@ -94,7 +94,11 @@ const HotDeal: NextPage = () => {
               </div>
               <div className="media-banner-box">
                 <div className="media">
-                  <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid  " alt="banner" />
+                  <Media
+                    src="/images/layout-1/media-banner/1.jpg"
+                    className="img-fluid  "
+                    alt="banner"
+                  />
                   <div className="media-body">
                     <div className="media-contant">
                       <div>
@@ -106,7 +110,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>
@@ -114,7 +118,11 @@ const HotDeal: NextPage = () => {
               </div>
               <div className="media-banner-box">
                 <div className="media">
-                  <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                  <Media
+                    src="/images/layout-1/media-banner/2.jpg"
+                    className="img-fluid  "
+                    alt="banner"
+                  />
                   <div className="media-body">
                     <div className="media-contant">
                       <div>
@@ -126,7 +134,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>
@@ -143,7 +151,11 @@ const HotDeal: NextPage = () => {
               </div>
               <div className="media-banner-box">
                 <div className="media">
-                  <Media src="/images/layout-1/media-banner/3.jpg" className="img-fluid  " alt="banner" />
+                  <Media
+                    src="/images/layout-1/media-banner/3.jpg"
+                    className="img-fluid  "
+                    alt="banner"
+                  />
                   <div className="media-body">
                     <div className="media-contant">
                       <div>
@@ -155,7 +167,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>
@@ -180,7 +192,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>
@@ -200,13 +212,19 @@ const HotDeal: NextPage = () => {
                       <div className="col-lg-4 col-sm-3 ">
                         <Slider asNavFor={nav1} ref={slider2} {...settings}>
                           {dataR &&
-                            dataR.collection[0].images.map((img: any, i: any) => {
-                              return (
-                                <div key={i}>
-                                  <Media src={`/images/${img.src}`} alt="hot-deal" className="img-fluid  " />
-                                </div>
-                              );
-                            })}
+                            dataR.collection[0].images.map(
+                              (img: any, i: any) => {
+                                return (
+                                  <div key={i}>
+                                    <Media
+                                      src={`/images/${img.src}`}
+                                      alt="hot-deal"
+                                      className="img-fluid  "
+                                    />
+                                  </div>
+                                );
+                              }
+                            )}
                         </Slider>
                       </div>
                       <div className="col-lg-6 col-sm-7">
@@ -223,17 +241,32 @@ const HotDeal: NextPage = () => {
                               <h5>simply dummy text of the printing</h5>
                             </div>
                             <div>
-                              <p>it is a long established fact that a reader. it is a long established fact that a reader.</p>
+                              <p>
+                                it is a long established fact that a reader. it
+                                is a long established fact that a reader.
+                              </p>
                               {dataR && !loading ? (
                                 <div className="price">
                                   <span>
                                     {selectedCurr.symbol}
-                                    {(dataR && dataR.collection[0].price * selectedCurr.value).toFixed(2)}
+                                    {(
+                                      dataR &&
+                                      dataR.collection[0].price *
+                                        selectedCurr.value
+                                    ).toFixed(2)}
                                   </span>
                                   <span>
                                     {" "}
                                     {selectedCurr.symbol}
-                                    {((dataR && dataR.collection[0].price - (dataR && dataR.collection[0].price * (dataR && dataR.collection[0].discount / 100))) * selectedCurr.value).toFixed(2)}
+                                    {(
+                                      (dataR &&
+                                        dataR.collection[0].price -
+                                          (dataR &&
+                                            dataR.collection[0].price *
+                                              (dataR &&
+                                                dataR.collection[0].discount /
+                                                  100))) * selectedCurr.value
+                                    ).toFixed(2)}
                                   </span>
                                 </div>
                               ) : (
@@ -244,15 +277,30 @@ const HotDeal: NextPage = () => {
                         </div>
                       </div>
                       <div className="col-lg-2  col-sm-2">
-                        <Slider asNavFor={nav2} vertical={true} ref={slider1} slidesToShow={2} swipeToSlide={true} focusOnSelect={true} verticalSwiping={true} {...setting1}>
+                        <Slider
+                          asNavFor={nav2}
+                          vertical={true}
+                          ref={slider1}
+                          slidesToShow={2}
+                          swipeToSlide={true}
+                          focusOnSelect={true}
+                          verticalSwiping={true}
+                          {...setting1}
+                        >
                           {dataR &&
-                            dataR.collection[0].images.map((img: any, i: any) => {
-                              return (
-                                <div key={i}>
-                                  <Media src={`/images/${img.src}`} alt="hot-deal" className="img-fluid  " />
-                                </div>
-                              );
-                            })}
+                            dataR.collection[0].images.map(
+                              (img: any, i: any) => {
+                                return (
+                                  <div key={i}>
+                                    <Media
+                                      src={`/images/${img.src}`}
+                                      alt="hot-deal"
+                                      className="img-fluid  "
+                                    />
+                                  </div>
+                                );
+                              }
+                            )}
                         </Slider>
                       </div>
                     </div>
@@ -270,7 +318,11 @@ const HotDeal: NextPage = () => {
               </div>
               <div className="media-banner-box">
                 <div className="media">
-                  <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid  " alt="banner" />
+                  <Media
+                    src="/images/layout-1/media-banner/1.jpg"
+                    className="img-fluid  "
+                    alt="banner"
+                  />
                   <div className="media-body">
                     <div className="media-contant">
                       <div>
@@ -282,7 +334,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>
@@ -290,7 +342,11 @@ const HotDeal: NextPage = () => {
               </div>
               <div className="media-banner-box">
                 <div className="media">
-                  <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                  <Media
+                    src="/images/layout-1/media-banner/2.jpg"
+                    className="img-fluid  "
+                    alt="banner"
+                  />
                   <div className="media-body">
                     <div className="media-contant">
                       <div>
@@ -302,7 +358,7 @@ const HotDeal: NextPage = () => {
                           <i className="fa fa-star"></i>
                         </div>
                         <p>Generator on Internet.</p>
-                        <h6>$153.00</h6>
+                        <h6>₹153.00</h6>
                       </div>
                     </div>
                   </div>

@@ -16,62 +16,62 @@ const productData = [
   {
     img: "/images/metro/1.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/2.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/3.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/4.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/7.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/6.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/9.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/12.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/10.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/15.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/16.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
   {
     img: "/images/metro/13.jpg",
     title: "Slim Fit Cotton Shirt",
-    price: "$500.00",
+    price: "₹500.00",
   },
 ];
 
@@ -85,13 +85,22 @@ const ProductList: React.FC<productProps> = ({ product }) => {
               <img src={product.img} className="img-fluid  " alt="product" />
             </div>
             <div className="product-icon">
-              <button data-toggle="modal" data-target="#addtocart" title="Add to cart">
+              <button
+                data-toggle="modal"
+                data-target="#addtocart"
+                title="Add to cart"
+              >
                 <i className="ti-bag"></i>
               </button>
               <a href="javascript(0)" title="Add to Wishlist">
                 <i className="ti-heart" aria-hidden="true"></i>
               </a>
-              <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View">
+              <a
+                href="#"
+                data-toggle="modal"
+                data-target="#quick-view"
+                title="Quick View"
+              >
                 <i className="ti-search" aria-hidden="true"></i>
               </a>
               <a href="#" title="Compare">
@@ -124,7 +133,11 @@ const CollectionFullWidth: React.FC = () => {
       <div className="collection-product-wrapper">
         <div className="section-big-pt-space portfolio-section portfolio-padding metro-section port-col">
           <Row className="isotopeContainer  metro-block">
-            <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid masonry-with-dec" columnClassName="my-masonry-grid_column">
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="my-masonry-grid masonry-with-dec"
+              columnClassName="my-masonry-grid_column"
+            >
               {productData.map((data, i) => (
                 <ProductList product={data} key={i} />
               ))}
@@ -140,7 +153,10 @@ const CollectionFullWidth: React.FC = () => {
                     <li className="page-item">
                       <a className="page-link" href="#" aria-label="Previous">
                         <span aria-hidden="true">
-                          <i className="fa fa-chevron-left" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-chevron-left"
+                            aria-hidden="true"
+                          ></i>
                         </span>{" "}
                         <span className="sr-only">Previous</span>
                       </a>
@@ -163,7 +179,10 @@ const CollectionFullWidth: React.FC = () => {
                     <li className="page-item">
                       <a className="page-link" href="#" aria-label="Next">
                         <span aria-hidden="true">
-                          <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-chevron-right"
+                            aria-hidden="true"
+                          ></i>
                         </span>{" "}
                         <span className="sr-only">Next</span>
                       </a>

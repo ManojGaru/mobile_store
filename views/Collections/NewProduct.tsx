@@ -28,7 +28,11 @@ const NewProduct: NextPage = () => (
         <div>
           <div className="media">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/001.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/001.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
@@ -41,79 +45,109 @@ const NewProduct: NextPage = () => (
               <a href="/collections/no-sidebar">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/002.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/002.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
-                <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i>
               </div>
               <a href="#">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
           <div className="media ">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/003.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/003.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
-                <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i>
               </div>
               <a href="#">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
         </div>
         <div>
           <div className="media">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/003.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/003.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
-                <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i>
               </div>
               <a href="#">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/001.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/001.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
-                <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i>
               </div>
               <a href="#">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
-              <Media className="img-fluid " src="/images/product-sidebar/002.jpg" alt="" />
+              <Media
+                className="img-fluid "
+                src="/images/product-sidebar/002.jpg"
+                alt=""
+              />
             </a>
             <div className="media-body align-self-center">
               <div className="rating">
-                <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i>
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i> <i className="fa fa-star"></i>{" "}
+                <i className="fa fa-star"></i>
               </div>
               <a href="#">
                 <h6>Slim Fit Cotton Shirt</h6>
               </a>
-              <h4>$500.00</h4>
+              <h4>₹500.00</h4>
             </div>
           </div>
         </div>

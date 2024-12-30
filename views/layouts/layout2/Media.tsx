@@ -95,7 +95,11 @@ const MediaSection: NextPage = () => {
                   </div>
                   <div className="media-banner-box">
                     <div className="media">
-                      <Media src="/images/layout-1/media-banner/1.jpg" className="img-fluid  " alt="banner" />
+                      <Media
+                        src="/images/layout-1/media-banner/1.jpg"
+                        className="img-fluid  "
+                        alt="banner"
+                      />
                       <div className="media-body">
                         <div className="media-contant">
                           <div>
@@ -107,7 +111,7 @@ const MediaSection: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -115,7 +119,11 @@ const MediaSection: NextPage = () => {
                   </div>
                   <div className="media-banner-box">
                     <div className="media">
-                      <Media src="/images/layout-1/media-banner/2.jpg" className="img-fluid  " alt="banner" />
+                      <Media
+                        src="/images/layout-1/media-banner/2.jpg"
+                        className="img-fluid  "
+                        alt="banner"
+                      />
                       <div className="media-body">
                         <div className="media-contant">
                           <div>
@@ -127,7 +135,7 @@ const MediaSection: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -144,7 +152,11 @@ const MediaSection: NextPage = () => {
                   </div>
                   <div className="media-banner-box">
                     <div className="media">
-                      <Media src="/images/layout-1/media-banner/3.jpg" className="img-fluid  " alt="banner" />
+                      <Media
+                        src="/images/layout-1/media-banner/3.jpg"
+                        className="img-fluid  "
+                        alt="banner"
+                      />
                       <div className="media-body">
                         <div className="media-contant">
                           <div>
@@ -156,7 +168,7 @@ const MediaSection: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -164,7 +176,11 @@ const MediaSection: NextPage = () => {
                   </div>
                   <div className="media-banner-box">
                     <div className="media">
-                      <Media src="/images/layout-1/media-banner/4.jpg" className="img-fluid  " alt="banner" />
+                      <Media
+                        src="/images/layout-1/media-banner/4.jpg"
+                        className="img-fluid  "
+                        alt="banner"
+                      />
                       <div className="media-body">
                         <div className="media-contant">
                           <div>
@@ -176,7 +192,7 @@ const MediaSection: NextPage = () => {
                               <i className="fa fa-star"></i>
                             </div>
                             <p>Generator on Internet.</p>
-                            <h6>$153.00</h6>
+                            <h6>₹153.00</h6>
                           </div>
                         </div>
                       </div>
@@ -205,13 +221,19 @@ const MediaSection: NextPage = () => {
                         <Col lg="4" sm="4" xs="12">
                           <Slider asNavFor={nav1} {...settings} ref={slider2}>
                             {dataR &&
-                              dataR.collection[0].images.map((img: any, i: any) => {
-                                return (
-                                  <div key={i}>
-                                    <Media src={`/images/${img.src}`} alt="hot-deal" className="img-fluid  " />
-                                  </div>
-                                );
-                              })}
+                              dataR.collection[0].images.map(
+                                (img: any, i: any) => {
+                                  return (
+                                    <div key={i}>
+                                      <Media
+                                        src={`/images/${img.src}`}
+                                        alt="hot-deal"
+                                        className="img-fluid  "
+                                      />
+                                    </div>
+                                  );
+                                }
+                              )}
                           </Slider>
                         </Col>
                         <Col lg="6" sm="6">
@@ -228,17 +250,31 @@ const MediaSection: NextPage = () => {
                                 <h5>simply dummy text of the printing</h5>
                               </div>
                               <div>
-                                <p>it is a long established fact that a reader.</p>
+                                <p>
+                                  it is a long established fact that a reader.
+                                </p>
                                 {dataR && !loading ? (
                                   <div className="price">
                                     <span>
                                       {selectedCurr.symbol}
-                                      {(dataR && dataR.collection[0].price * selectedCurr.value).toFixed(2)}
+                                      {(
+                                        dataR &&
+                                        dataR.collection[0].price *
+                                          selectedCurr.value
+                                      ).toFixed(2)}
                                     </span>
                                     <span>
                                       {" "}
                                       {selectedCurr.symbol}
-                                      {((dataR && dataR.collection[0].price - (dataR && dataR.collection[0].price * (dataR && dataR.collection[0].discount / 100))) * selectedCurr.value).toFixed(2)}
+                                      {(
+                                        (dataR &&
+                                          dataR.collection[0].price -
+                                            (dataR &&
+                                              dataR.collection[0].price *
+                                                (dataR &&
+                                                  dataR.collection[0].discount /
+                                                    100))) * selectedCurr.value
+                                      ).toFixed(2)}
                                     </span>
                                   </div>
                                 ) : (
@@ -249,15 +285,30 @@ const MediaSection: NextPage = () => {
                           </div>
                         </Col>
                         <Col lg="2" sm="2" md="0">
-                          <Slider {...setting1} asNavFor={nav2} vertical={true} ref={slider1} slidesToShow={2} swipeToSlide={true} focusOnSelect={true} verticalSwiping={true}>
+                          <Slider
+                            {...setting1}
+                            asNavFor={nav2}
+                            vertical={true}
+                            ref={slider1}
+                            slidesToShow={2}
+                            swipeToSlide={true}
+                            focusOnSelect={true}
+                            verticalSwiping={true}
+                          >
                             {dataR &&
-                              dataR.collection[0].images.map((img: any, i: any) => {
-                                return (
-                                  <div key={i}>
-                                    <Media src={`/images/${img.src}`} alt="hot-deal" className="img-fluid" />
-                                  </div>
-                                );
-                              })}
+                              dataR.collection[0].images.map(
+                                (img: any, i: any) => {
+                                  return (
+                                    <div key={i}>
+                                      <Media
+                                        src={`/images/${img.src}`}
+                                        alt="hot-deal"
+                                        className="img-fluid"
+                                      />
+                                    </div>
+                                  );
+                                }
+                              )}
                           </Slider>
                         </Col>
                       </Row>

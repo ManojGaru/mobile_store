@@ -12,7 +12,11 @@ const BigBanner: NextPage = () => (
             <Col xs="6">
               <div className="collection-banner-main banner-2">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/1.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/1.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain">
                   <div>
@@ -25,9 +29,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "ELECTRONICS",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -37,7 +42,11 @@ const BigBanner: NextPage = () => (
             <Col xs="6">
               <div className="collection-banner-main banner-2">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/2.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/2.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain">
                   <div>
@@ -50,9 +59,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "ELECTRONICS",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -64,7 +74,11 @@ const BigBanner: NextPage = () => (
             <Col xs="6">
               <div className="collection-banner-main banner-2">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/3.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/3.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain ">
                   <div>
@@ -77,9 +91,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "KIDS",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -89,7 +104,11 @@ const BigBanner: NextPage = () => (
             <Col xs="6">
               <div className="collection-banner-main banner-2">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/4.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/4.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain ">
                   <div>
@@ -102,9 +121,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "SHOES",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -118,12 +138,16 @@ const BigBanner: NextPage = () => (
             <Col xs="12">
               <div className="collection-banner-main banner-3 p-center ">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/5.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/5.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain  text-center">
                   <div>
                     <h3>apple laptop</h3>
-                    <h4>only $999 hurry up!</h4>
+                    <h4>only ₹999 hurry up!</h4>
                   </div>
                 </div>
               </div>
@@ -135,7 +159,11 @@ const BigBanner: NextPage = () => (
             <Col lg="12" md="6">
               <div className="collection-banner-main banner-4 p-left">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/6.jpg" className="img-fluid bg-img  " alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/6.jpg"
+                    className="img-fluid bg-img  "
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain ">
                   <div>
@@ -148,9 +176,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "WATCH",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>
@@ -160,7 +189,11 @@ const BigBanner: NextPage = () => (
             <Col lg="12" md="6">
               <div className="collection-banner-main banner-4 p-left">
                 <div className="collection-img">
-                  <Media src="/images/layout-3/collection-banner/7.jpg" className="img-fluid bg-img" alt="banner" />
+                  <Media
+                    src="/images/layout-3/collection-banner/7.jpg"
+                    className="img-fluid bg-img"
+                    alt="banner"
+                  />
                 </div>
                 <div className="collection-banner-contain ">
                   <div>
@@ -173,9 +206,10 @@ const BigBanner: NextPage = () => (
                           query: {
                             category: "JEWELLWEY",
                           },
-                        }}>
-                          Shop Now
-                          <i className="fa fa-arrow-circle-right"></i>
+                        }}
+                      >
+                        Shop Now
+                        <i className="fa fa-arrow-circle-right"></i>
                       </Link>
                     </div>
                   </div>

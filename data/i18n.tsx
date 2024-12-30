@@ -23,7 +23,7 @@ i18n
           cart: "Cart",
           "All Category": "All Category",
           "Download app": "Download app",
-          "free shipping on order over $99": "free shipping on order over $99",
+          "free shipping on order over ₹99": "free shipping on order over ₹99",
           item: "item",
           wishlist: "wishlist",
         },
@@ -43,7 +43,8 @@ i18n
           cart: "carro",
           "All Category": "Toda la categoría",
           "Download app": "Descargar app",
-          "free shipping on order over $99": "envío gratis en pedidos superiores a $ 99",
+          "free shipping on order over ₹99":
+            "envío gratis en pedidos superiores a ₹ 99",
           item: "articulo",
           wishlist: "lista de deseos",
         },
@@ -63,7 +64,8 @@ i18n
           cart: "عربة التسوق",
           "All Category": "جميع الفئات",
           "Download app": "تنزيل aap",
-          "free shipping on order over $99": "شحن مجاني عند الطلب بأكثر من 99 دولارًا",
+          "free shipping on order over ₹99":
+            "شحن مجاني عند الطلب بأكثر من 99 دولارًا",
           item: "بند",
           wishlist: "قائمة الرغبات",
         },

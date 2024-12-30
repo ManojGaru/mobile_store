@@ -7,16 +7,28 @@ interface ContextProps {
 export const Context = createContext({} as ContextProps);
 
 export const Provider = (props) => {
-  const [selectedCurr, selectedCurrency] = useState({ currency: "USD", symbol: "$", value: 1 });
+  const [selectedCurr, selectedCurrency] = useState({
+    currency: "USD",
+    symbol: "₹",
+    value: 1,
+  });
 
   const currencyContext = {
     selectedCurr,
     selectedCurrency,
   };
 
-  return <Context.Provider value={currencyContext}> {props.children}</Context.Provider>;
+  return (
+    <Context.Provider value={currencyContext}>
+      {" "}
+      {props.children}
+    </Context.Provider>
+  );
 };
 
 export const { Consumer } = Context;
 
-export { Context as CurrencyContext, Provider as CurrencyContextProvider } from "./CurrencyContext";
+export {
+  Context as CurrencyContext,
+  Provider as CurrencyContextProvider,
+} from "./CurrencyContext";
