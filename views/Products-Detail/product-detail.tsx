@@ -14,7 +14,12 @@ interface ProductRightProps {
   swatch: boolean;
 }
 
-const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bundle, swatch }) => {
+const ProductDetail: React.FC<ProductRightProps> = ({
+  item,
+  changeColorVar,
+  bundle,
+  swatch,
+}) => {
   const [modal, setModal] = useState(false);
   const [qty, setQty] = useState(1);
   const [stock, setStock] = useState("InStock");
@@ -75,21 +80,34 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
           var findItemSize = uniqueSize.find((x) => x === vari.size);
           if (!findItemSize && vari.size) uniqueSize.push(vari.size);
         })}
-      {swatch ? <ImageSwatch item={item} changeColorVar={changeColorVar} /> : ""}
+      {swatch ? (
+        <ImageSwatch item={item} changeColorVar={changeColorVar} />
+      ) : (
+        ""
+      )}
       <div className="product-description border-product">
         <h6 className="product-title">select color</h6>
         {changeColorVar === undefined
           ? !!uniqueColor.length && (
               <ul className="color-variant">
                 {uniqueColor.map((vari, i) => {
-                  return <li className={vari.color} key={i} title={vari.color}></li>;
+                  return (
+                    <li className={vari.color} key={i} title={vari.color}></li>
+                  );
                 })}
               </ul>
             )
           : !!uniqueColor.length && (
               <ul className="color-variant">
                 {uniqueColor.map((vari, i) => {
-                  return <li className={vari.color} key={i} title={vari.color} onClick={() => changeColorVar(i)}></li>;
+                  return (
+                    <li
+                      className={vari.color}
+                      key={i}
+                      title={vari.color}
+                      onClick={() => changeColorVar(i)}
+                    ></li>
+                  );
                 })}
               </ul>
             )}
@@ -98,18 +116,30 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
             <h6 className="product-title size-text">
               select size{" "}
               <span>
-                <a data-toggle="modal" data-target="#sizemodal" onClick={onOpenModal}>
+                <a
+                  data-toggle="modal"
+                  data-target="#sizemodal"
+                  onClick={onOpenModal}
+                >
                   size chart
                 </a>
               </span>
             </h6>
             <Modal isOpen={modal} centered={true} toggle={onCloseModal}>
               <ModalHeader>
-                Sheer Straight Kurta <i className="fa fa-close modal-close" onClick={onCloseModal}></i>
+                Sheer Straight Kurta{" "}
+                <i
+                  className="fa fa-close modal-close"
+                  onClick={onCloseModal}
+                ></i>
               </ModalHeader>
               <ModalBody>
                 <div className="modal-body">
-                  <img src="/images/size-chart.jpg" alt="" className="img-fluid " />
+                  <img
+                    src="/images/size-chart.jpg"
+                    alt=""
+                    className="img-fluid "
+                  />
                 </div>
               </ModalBody>
             </Modal>
@@ -117,13 +147,17 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
             <div className="size-box">
               <ul>
                 {uniqueSize.map((size, i) => (
-                  <li className={`${size === activesize ? "active" : ""}`} key={i}>
+                  <li
+                    className={`${size === activesize ? "active" : ""}`}
+                    key={i}
+                  >
                     <a
                       href="#"
                       onClick={(e) => {
                         e.preventDefault();
                         setSize(size);
-                      }}>
+                      }}
+                    >
                       {size}
                     </a>
                   </li>
@@ -134,18 +168,40 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
         )}
       </div>
       <div className="product-description border-product">
-        {stock !== "InStock" ? <span className="instock-cls">{stock}</span> : ""}
+        {stock !== "InStock" ? (
+          <span className="instock-cls">{stock}</span>
+        ) : (
+          ""
+        )}
         <h6 className="product-title">quantity</h6>
         <div className="qty-box">
           <div className="input-group">
             <span className="input-group-prepend">
-              <button type="button" className="btn quantity-left-minus" data-type="minus" data-field="" onClick={minusQty}>
+              <button
+                type="button"
+                className="btn quantity-left-minus"
+                data-type="minus"
+                data-field=""
+                onClick={minusQty}
+              >
                 <i className="ti-angle-left"></i>
               </button>
             </span>
-            <Input type="text" name="quantity" className="form-control input-number" value={qty} onChange={changeQty} />
+            <Input
+              type="text"
+              name="quantity"
+              className="form-control input-number"
+              value={qty}
+              onChange={changeQty}
+            />
             <span className="input-group-prepend">
-              <button type="button" className="btn quantity-right-plus" data-type="plus" data-field="" onClick={plusQty}>
+              <button
+                type="button"
+                className="btn quantity-right-plus"
+                data-type="plus"
+                data-field=""
+                onClick={plusQty}
+              >
                 <i className="ti-angle-right"></i>
               </button>
             </span>
@@ -161,18 +217,24 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
           onClick={(e) => {
             e.preventDefault();
             addToCart(item);
-          }}>
+          }}
+        >
           add to cart
         </a>
         <a href="/pages/account/checkout" className="btn btn-normal">
           buy now
         </a>
+        <a href="/pages/account/checkout" className="btn btn-normal">
+          exchange
+        </a>
       </div>
       <div className="border-product">
         <h6 className="product-title">product details</h6>
         <p>
-          Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae
-          vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,
+          Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt, explicabo. Nemo enim ipsam voluptatem,
         </p>
       </div>
       <div className="border-product">
@@ -209,7 +271,8 @@ const ProductDetail: React.FC<ProductRightProps> = ({ item, changeColorVar, bund
               className="wishlist-btn"
               onClick={() => {
                 addToWish(item);
-              }}>
+              }}
+            >
               <i className="fa fa-heart"></i>
               <span className="title-font">Add To WishList</span>
             </button>

@@ -8759,9 +8759,14 @@ button {
     text-transform: uppercase;
     a {
       padding: 13px 30px;
-      &:last-child {
-        margin-left: 10px;
-      }
+      // &:last-child {
+      //   margin-left: 10px;
+      // }
+      // &:last-child {
+      //   margin-left: 10px;
+      // }
+      margin-right: 10px;
+      
     }
   }
   .product-description {

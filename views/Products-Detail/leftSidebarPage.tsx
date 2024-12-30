@@ -61,7 +61,8 @@ const LeftSidebarPage: NextPage<LeftSidebar> = ({ pathId }) => {
               className="collection-filter"
               style={{
                 left: filterOpen ? "-15px" : "",
-              }}>
+              }}
+            >
               <Sidebar />
               <ProductService />
               <NewProduct />
@@ -70,14 +71,21 @@ const LeftSidebarPage: NextPage<LeftSidebar> = ({ pathId }) => {
               <Row>
                 <Col xl="12">
                   <div className="filter-main-btn mb-sm-4">
-                    <span className="filter-btn" onClick={() => setFilterOpen(!filterOpen)}>
+                    <span
+                      className="filter-btn"
+                      onClick={() => setFilterOpen(!filterOpen)}
+                    >
                       <i className="fa fa-filter" aria-hidden="true"></i> filter
                     </span>
                   </div>
                 </Col>
               </Row>
               <Row>
-                <ProductSlick item={data.product} bundle={false} swatch={false} />
+                <ProductSlick
+                  item={data.product}
+                  bundle={false}
+                  swatch={false}
+                />
               </Row>
               <TabProduct />
             </Col>

@@ -22,7 +22,11 @@ const ThreeGrid: NextPage = () => {
                 <NewProduct />
                 <div className="collection-sidebar-banner">
                   <a href="#">
-                    <img src="/images/category/side-banner.png" className="img-fluid " alt="" />
+                    <img
+                      src="/images/category/side-banner.png"
+                      className="img-fluid "
+                      alt=""
+                    />
                   </a>
                 </div>
                 <OfferSlider />

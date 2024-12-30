@@ -12,7 +12,10 @@ const Sidebar: NextPage = () => {
   return (
     <div className="collection-filter-block creative-card creative-inner">
       <div className="collection-mobile-back">
-        <span className="filter-back" onClick={() => setFilterOpen(!filterOpen)}>
+        <span
+          className="filter-back"
+          onClick={() => setFilterOpen(!filterOpen)}
+        >
           <i className="fa fa-angle-left" aria-hidden="true"></i>
           back
         </span>
@@ -26,19 +29,19 @@ const Sidebar: NextPage = () => {
             <div className="collection-brand-filter">
               <ul className="category-list">
                 <li>
-                  <a href="#">clothing</a>
+                  <a href="#">Samsung</a>
                 </li>
                 <li>
-                  <a href="#">bags</a>
+                  <a href="#">Oppo</a>
                 </li>
                 <li>
-                  <a href="#">footwear</a>
+                  <a href="#">Vivo</a>
                 </li>
                 <li>
-                  <a href="#">watches</a>
+                  <a href="#">MI</a>
                 </li>
                 <li>
-                  <a href="#">accessories</a>
+                  <a href="#">Moto</a>
                 </li>
               </ul>
             </div>

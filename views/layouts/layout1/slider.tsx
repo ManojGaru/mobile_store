@@ -81,9 +81,17 @@ const BannerList: React.FC<sliderProps> = ({ banner }) => {
       onMouseMove={(e) => onMouseHover(e)}
     >
       <div className="slider-img">
-        <ul className="layout1-slide-1">
-          <li id="img-1">
-            <Media src={banner.img1} alt="slider" />
+        <ul className="layout1-slide-2">
+          <li id="img-1" className="slide-center">
+            <Media
+              src={banner.img1}
+              middle
+              alt="slider"
+              // className="img-fluid"
+            />
+          </li>
+          <li id="img-1" className="slide-center">
+            <Media src={banner.img2} middle alt="slider" />
           </li>
           {/* <li id="img-2" className="slide-center" style={elemOne}>
             <Media src={banner.img2} className="img-fluid" alt="slider" />

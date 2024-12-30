@@ -17,13 +17,18 @@ const LeftSidebarCollection: NextPage = () => {
           left: leftSidebarOpen ? "-15px" : "",
         }}
         id="filter"
-        className="collection-filter category-page-side">
+        className="collection-filter category-page-side"
+      >
         <div className="sticky-sidebar">
           <Sidebar />
           <NewProduct />
           <div className="collection-sidebar-banner">
             <a href="#">
-              <img src="/images/category/side-banner.png" className="img-fluid " alt="" />
+              <img
+                src="/images/category/side-banner.png"
+                className="img-fluid "
+                alt=""
+              />
             </a>
           </div>
         </div>

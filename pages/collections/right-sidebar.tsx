@@ -15,7 +15,10 @@ const RightSidebar: NextPage = () => (
         <div className="custom-container">
           <Row>
             {/* Collection */}
-            <Collection cols="col-xl-3 col-md-4 col-6 col-grid-box" layoutList="" />
+            <Collection
+              cols="col-xl-3 col-md-4 col-6 col-grid-box"
+              layoutList=""
+            />
             {/* Sidebar */}
             <Col sm="3" className="collection-filter category-page-side">
               <div className="sticky-sidebar">
@@ -23,7 +26,11 @@ const RightSidebar: NextPage = () => (
                 <NewProduct />
                 <div className="collection-sidebar-banner">
                   <a href="#">
-                    <img src="/images/category/side-banner.png" className="img-fluid " alt="" />
+                    <img
+                      src="/images/category/side-banner.png"
+                      className="img-fluid "
+                      alt=""
+                    />
                   </a>
                 </div>
               </div>

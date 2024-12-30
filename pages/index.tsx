@@ -26,7 +26,9 @@ const Home: NextPage = () => {
       <NewsLatter />
       <Layouts>
         <div className="bg-light">
-          <SliderBanner />
+          {/* <SliderBanner /> */}
+          {/* <CollectionBannerThree /> */}
+          <CollectionBannerTwo first={true} />
           <CollectionBanner />
           <DiscountBanner />
           <TabProduct effect="icon-inline" />
