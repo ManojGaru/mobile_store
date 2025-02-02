@@ -228,7 +228,7 @@ const RatioSquare: NextPage = () => {
                                             {/* <p>{item.title}</p> */}
                                             <p>{"Test"}</p>
                                           </Link>
-                                          <h6>
+                                          <h6 style={{ fontFamily: "Arial" }}>
                                             {" "}
                                             {selectedCurr.symbol}
                                             {(
@@ -314,7 +314,7 @@ const RatioSquare: NextPage = () => {
                                           {/* <p>{item.title}</p> */}
                                           <p>{"Test"}</p>
                                         </a>
-                                        <h6>
+                                        <h6 style={{ fontFamily: "Arial" }}>
                                           {" "}
                                           {selectedCurr.symbol}
                                           {(
@@ -366,7 +366,7 @@ const RatioSquare: NextPage = () => {
                                           {/* <p>{item.title}</p> */}
                                           <p>{"Test"}</p>
                                         </a>
-                                        <h6>
+                                        <h6 style={{ fontFamily: "Arial" }}>
                                           {" "}
                                           {selectedCurr.symbol}
                                           {(

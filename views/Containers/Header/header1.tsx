@@ -108,9 +108,10 @@ const Header: NextPage<header> = ({
                       </ul>
                     </div>
                   </div>
+
                   <div className="category-right">
-                    <ContactUs spanClass="" />
-                    <Gift />
+                    {/* <ContactUs spanClass="" />
+                    <Gift /> */}
                   </div>
                 </div>
               </Col>

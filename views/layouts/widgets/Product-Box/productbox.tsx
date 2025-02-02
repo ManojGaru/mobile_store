@@ -91,7 +91,7 @@ const ProductBox: NextPage<productType> = ({
           <div className="product-front" onClick={clickProductDetail}>
             <Img
               // src={`/images/${imgsrc || images[0].src}`}
-              src={`/images/common/612IqV1YEjL._SX679_.jpg`}
+              src={`/images/common/51KJE22BKrL._SX679_.jpg`}
               className="img-fluid"
               alt="product"
             />
@@ -167,16 +167,16 @@ const ProductBox: NextPage<productType> = ({
               </Link>
             </div>
             <div className="detail-right">
-              <div className="check-price">
-                {selectedCurr.symbol}
-                {(price * selectedCurr.value).toFixed(2)}{" "}
+              <div className="check-price" style={{ fontFamily: "Arial" }}>
+                ₹{(price * selectedCurr.value * 100).toFixed(2)}{" "}
               </div>
               <div className="price">
-                <div className="price">
-                  {selectedCurr.symbol}
+                <div className="price" style={{ fontFamily: "Arial" }}>
+                  ₹
                   {(
                     (price - price * (discount / 100)) *
-                    selectedCurr.value
+                    selectedCurr.value *
+                    100
                   ).toFixed(2)}
                 </div>
               </div>

@@ -17,6 +17,9 @@ import { CartContext } from "../../../../helpers/cart/cart.context";
 import { WishlistContext } from "../../../../helpers/wishlist/wish.context";
 import { CompareContext } from "../../../../helpers/compare/compare.context";
 import { Skeleton } from "../../../../common/skeleton";
+import ProductCard from "components/ProductCard";
+import { Button, Grid2 } from "@mui/material";
+import { useRouter } from "next/router";
 
 var settings = {
   arrows: true,
@@ -129,9 +132,21 @@ const TabProduct: NextPage<TabProductProps> = ({ effect }) => {
     },
   });
 
+  const router = useRouter();
+
   return (
     <>
-      {data &&
+      <Button
+        variant="outlined"
+        color="error"
+        style={{ float: "right", marginRight: "7%" }}
+        onClick={() => router.push("/pages/products")}
+      >
+        View More
+      </Button>
+      <br />
+      <div style={{ margin: 20, paddingInline: "5%" }}>
+        {/* {data &&
         data.products.items.map((item: any) => {
           item.collection.map((i: any) => {
             const index = collection.indexOf(i.collectionName);
@@ -196,7 +211,15 @@ const TabProduct: NextPage<TabProductProps> = ({ effect }) => {
             </Col>
           </Row>
         </div>
-      </section>
+      </section> */}
+        <Grid2 container spacing={2}>
+          {Array.from(Array(10).keys()).map((item, i) => (
+            <Grid2 size={{ xs: 12, sm: 12, md: 4, lg: 4 }} key={Math.random()}>
+              <ProductCard />
+            </Grid2>
+          ))}
+        </Grid2>
+      </div>
     </>
   );
 };

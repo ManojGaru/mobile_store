@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     // <Loader>
     <>
-      <NewsLatter />
+      {/* <NewsLatter /> */}
       <Layouts>
         <div className="bg-light">
           {/* <SliderBanner /> */}
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             <DiscountCoupon />
           </section>
           <RatioSquare />
-          <CollectionBannerThree />
+          {/* <CollectionBannerThree /> */}
           <HotDeal />
           <section className="testimonial testimonial-inverse">
             <Testimonial />

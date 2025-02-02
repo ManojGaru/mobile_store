@@ -2627,9 +2627,22 @@
           margin-left: 0;
           margin-right: 30px;
         }
+        @media (min-width: 1024px) and (max-width: 1920px){
+          /* Styles go here */
+          .icon-block {
+           // order: unset;
+          padding-left: 500;
+        }
+      }
+      @media (min-width: 550px) and (max-width: 1024px){
+        /* Styles go here */
         .icon-block {
           order: unset;
-        }
+      }
+    }
+       
+        
+    
         .nav-block {
           .nav-left {
             left: 0;

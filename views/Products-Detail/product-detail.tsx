@@ -61,17 +61,21 @@ const ProductDetail: React.FC<ProductRightProps> = ({
   const uniqueSize = [];
   return (
     <div className="product-right">
-      <h2>{item.title}</h2>
+      <h2>{" Redmi 12 5g"}</h2>
       <h4>
-        <del>
+        <del style={{ fontFamily: "Arial" }}>
           {symbol}
-          {item.price * value}
+          {item.price * value * 100}
         </del>
         <span>{item.discount}% off</span>
       </h4>
-      <h3>
+      <h3 style={{ fontFamily: "Arial" }}>
         {symbol}
-        {((item.price - item.price * (item.discount / 100)) * value).toFixed(2)}
+        {(
+          (item.price - item.price * (item.discount / 100)) *
+          value *
+          100
+        ).toFixed(2)}
       </h3>{" "}
       {item.variants &&
         item.variants.map((vari) => {

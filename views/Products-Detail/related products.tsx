@@ -102,7 +102,10 @@ const RelatedProducts: NextPage = () => {
           </Col>
         </Row>
 
-        {!data || !data.relatedProducts || data.relatedProducts.length === 0 || loading ? (
+        {!data ||
+        !data.relatedProducts ||
+        data.relatedProducts.length === 0 ||
+        loading ? (
           <Skeleton />
         ) : (
           <Row>
@@ -111,7 +114,14 @@ const RelatedProducts: NextPage = () => {
                 {data &&
                   data.relatedProducts.map((item: any, i: any) => (
                     <div key={i}>
-                      <ProductBox newLabel={item.new} {...item} item={item} addCart={() => addToCart(item)} addCompare={() => addToCompare(item)} addWish={() => addToWish(item)} />
+                      <ProductBox
+                        newLabel={item.new}
+                        {...item}
+                        item={item}
+                        addCart={() => addToCart(item)}
+                        addCompare={() => addToCompare(item)}
+                        addWish={() => addToWish(item)}
+                      />
                     </div>
                   ))}
               </Slider>

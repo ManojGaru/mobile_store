@@ -17,6 +17,12 @@
   "description": "",
   "dependencies": {
     "@apollo/client": "^3.6.9",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.1",
+    "@mui/icons-material": "^6.4.2",
+    "@mui/material": "^6.4.2",
+    "@mui/styled-engine-sc": "^6.4.2",
     "@paypal/react-paypal-js": "^8.2.0",
     "@types/react-slick": "^0.23.10",
     "@types/react-sticky-el": "^1.0.3",
@@ -42,7 +48,8 @@
     "react-sticky-el": "^2.0.9",
     "react-toastify": "^9.0.5",
     "reactstrap": "^9.2.2",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",

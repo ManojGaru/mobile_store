@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { NextPage } from "next";
 import { Row, Col, Media } from "reactstrap";
 import Link from "next/link";
+import BrandCard from "components/BrandCard";
+import { brands } from "../../../data/data";
+import Slider from "react-slick";
 
 interface CollectionBannerProps {
   img: string;
@@ -70,14 +73,30 @@ const CollectionBannerList: React.FC<Banners> = ({ banner }) => {
 };
 
 const CollectionBanner: NextPage = () => {
+  const initsettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: window.innerWidth > 700 ? 9 : 2,
+
+    slidesToScroll: 3,
+  };
+  const [settings, setSettings] = useState<any>(initsettings);
+
+  useEffect(() => {
+    console.log(window.innerWidth);
+  });
+
   return (
     <>
       <section className="collection-banner section-pt-space b-g-white ">
         <div className="custom-container">
           <Row className="collection2">
-            {banners.map((banner, i) => (
-              <CollectionBannerList banner={banner} key={i} />
-            ))}
+            <Slider {...settings} autoplay>
+              {brands?.map((banner, i) => (
+                <BrandCard brand={banner} key={i} />
+              ))}
+            </Slider>
           </Row>
         </div>
       </section>

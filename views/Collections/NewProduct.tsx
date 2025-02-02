@@ -30,7 +30,7 @@ const NewProduct: NextPage = () => (
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/001.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -43,16 +43,16 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="/collections/no-sidebar">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/002.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -63,16 +63,16 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="#">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
           <div className="media ">
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/003.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -83,9 +83,9 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="#">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const NewProduct: NextPage = () => (
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/003.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -105,16 +105,16 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="#">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/001.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -125,16 +125,16 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="#">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
           <div className="media">
             <a href="">
               <Media
                 className="img-fluid "
-                src="/images/product-sidebar/002.jpg"
+                src="https://billing.mobixpress.in/uploads/model/REDMI_12_5G_(1).jpg"
                 alt=""
               />
             </a>
@@ -145,9 +145,9 @@ const NewProduct: NextPage = () => (
                 <i className="fa fa-star"></i>
               </div>
               <a href="#">
-                <h6>Slim Fit Cotton Shirt</h6>
+                <h6>New Redmi 12 5G</h6>
               </a>
-              <h4>₹500.00</h4>
+              <h4 style={{ fontFamily: "Arial" }}>₹ 5000.00</h4>
             </div>
           </div>
         </div>
