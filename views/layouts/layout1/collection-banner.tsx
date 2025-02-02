@@ -77,9 +77,31 @@ const CollectionBanner: NextPage = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: window.innerWidth > 700 ? 9 : 2,
-
+    slidesToShow: 9,
     slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const [settings, setSettings] = useState<any>(initsettings);
 
@@ -92,7 +114,7 @@ const CollectionBanner: NextPage = () => {
       <section className="collection-banner section-pt-space b-g-white ">
         <div className="custom-container">
           <Row className="collection2">
-            <Slider {...settings} autoplay>
+            <Slider {...initsettings} autoplay>
               {brands?.map((banner, i) => (
                 <BrandCard brand={banner} key={i} />
               ))}
